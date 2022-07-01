@@ -1515,10 +1515,10 @@ const dictionary = [
 		russian: 'каждый',
 		german: 'jeder'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'пожалуйста',
+		german: 'bitte'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
