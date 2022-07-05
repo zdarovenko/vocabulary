@@ -1519,6 +1519,174 @@ const dictionary = [
 		russian: 'пожалуйста',
 		german: 'bitte'
 	},
+	{
+		russian: 'о чем?',
+		german: 'worüber?'
+	},
+	{
+		russian: 'хотеть, желать',
+		german: 'wollen'
+	},
+	{
+		russian: 'забывать',
+		german: 'vergessen'
+	},
+	{
+		russian: 'счет',
+		german: 'die Rechnung, Rechnungen'
+	},
+	{
+		russian: 'встречать',
+		german: 'treffen'
+	},
+	{
+		russian: 'назначенная встреча',
+		german: 'der Termin, Termine'
+	},
+	{
+		russian: 'озеро, море',
+		german: 'der See, Seen'
+	},
+	{
+		russian: 'хотеть',
+		german: 'möchten'
+	},
+	{
+		russian: 'предлог',
+		german: 'die Präposition, Präpositionen'
+	},
+	{
+		russian: 'место, площадь',
+		german: 'der Platz, Plätze'
+	},
+	{
+		russian: 'союз',
+		german: 'die Konjunktion, Konjunktionen'
+	},
+	{
+		russian: 'местоимение',
+		german: 'das Pronomen, Pronomen'
+	},
+	{
+		russian: 'наречие',
+		german: 'das Adverb, Adverbien'
+	},
+	{
+		russian: 'существительное (длинно)',
+		german: 'das Substantiv, Substantive'
+	},
+	{
+		russian: 'прилагательное',
+		german: 'das Adjektiv, Adjektive'
+	},
+	{
+		russian: 'существительное',
+		german: 'das Nomen, Nomen'
+	},
+	{
+		russian: 'глагол',
+		german: 'das Verb, Verben'
+	},
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
 	// {
 	// 	russian: '',
 	// 	german: ''
