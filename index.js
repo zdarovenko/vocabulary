@@ -1607,10 +1607,10 @@ const dictionary = [
 		russian: 'похожий',
 		german: 'ähnlich'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'когда?',
+		german: 'wann?'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
