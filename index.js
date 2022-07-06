@@ -345,7 +345,7 @@ const dictionary = [
 	},
 	{
 		russian: 'пока, до свидания',
-		german: 'tschüss'
+		german: 'tschüs'
 	},
 	{
 		russian: 'кто?',
@@ -1587,26 +1587,26 @@ const dictionary = [
 		russian: 'глагол',
 		german: 'das Verb, Verben'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'падеж',
+		german: 'die Fall, Fälle'
+	},
+	{
+		russian: 'кого? чей?',
+		german: 'wessen?'
+	},
+	{
+		russian: 'кому? чему?',
+		german: 'wem?'
+	},
+	{
+		russian: 'кого? что?',
+		german: 'wen?'
+	},
+	{
+		russian: 'похожий',
+		german: 'ähnlich'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
