@@ -1611,14 +1611,14 @@ const dictionary = [
 		russian: 'когда?',
 		german: 'wann?'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'вторичный продавец',
+		german: 'der Trödler, Trödler'
+	},
+	{
+		russian: 'король',
+		german: 'der König, Könige'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
