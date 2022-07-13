@@ -1619,54 +1619,54 @@ const dictionary = [
 		russian: 'король',
 		german: 'der König, Könige'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'звонить кому-либо',
+		german: 'anrufen'
+	},
+	{
+		russian: 'шляпа',
+		german: 'der Hut, Hüte'
+	},
+	{
+		russian: 'рынок',
+		german: 'der Markt, Märkte'
+	},
+	{
+		russian: 'торговать',
+		german: 'handeln'
+	},
+	{
+		russian: 'искать, рыться, выбирать (сленг)',
+		german: 'stöbern'
+	},
+	{
+		russian: 'строить',
+		german: 'bauen'
+	},
+	{
+		russian: 'стройка',
+		german: 'die Baustelle, Baustellen'
+	},
+	{
+		russian: 'приносить',
+		german: 'bringen'
+	},
+	{
+		russian: 'одежда',
+		german: 'die Kleidung'
+	},
+	{
+		russian: 'товар',
+		german: 'die Ware, Waren'
+	},
+	{
+		russian: 'вход (плата за вход)',
+		german: 'der Eintritt'
+	},
+	{
+		russian: 'просить',
+		german: 'bitten'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
