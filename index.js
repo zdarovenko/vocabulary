@@ -1691,66 +1691,66 @@ const dictionary = [
 		russian: 'вообще не (нет)',
 		german: 'gar nicht'
 	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
-	{
-		russian: '',
-		german: ''
-	},
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
+	// {
+	// 	russian: '',
+	// 	german: ''
+	// },
 	
 ];
 
