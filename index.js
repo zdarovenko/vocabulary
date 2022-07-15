@@ -1667,90 +1667,90 @@ const dictionary = [
 		russian: 'просить',
 		german: 'bitten'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'комплимент',
+		german: 'das Kompliment, Komplimente'
+	},
+	{
+		russian: 'красивый (человек)',
+		german: 'hübsch'
+	},
+	{
+		russian: 'симпатичный',
+		german: 'sympathisch'
+	},
+	{
+		russian: 'клево',
+		german: 'toll'
+	},
+	{
+		russian: 'шахматы',
+		german: 'der Schach, Schachs'
+	},
+	{
+		russian: 'вообще не (нет)',
+		german: 'gar nicht'
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
 	
 ];
 
@@ -1826,3 +1826,14 @@ function shuffle(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
+
+// class Word {
+// 	single = null;
+// 	multiple = null;
+// 	type = null;
+// 	fall = null;
+
+// 	constructor(config) {
+
+// 	}
+// }
