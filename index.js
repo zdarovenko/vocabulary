@@ -1707,14 +1707,14 @@ const dictionary = [
 		russian: 'довольно часто',
 		german: 'oft'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'концерт',
+		german: 'das Konzert, Konzerten'
+	},
+	{
+		russian: 'спать',
+		german: 'schlafen'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
