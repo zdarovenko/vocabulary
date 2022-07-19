@@ -1691,22 +1691,22 @@ const dictionary = [
 		russian: 'вообще не (нет)',
 		german: 'gar nicht'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'никогда',
+		german: 'nie'
+	},
+	{
+		russian: 'почти никогда',
+		german: 'fast nie'
+	},
+	{
+		russian: 'иногда',
+		german: 'manchmal'
+	},
+	{
+		russian: 'довольно часто',
+		german: 'oft'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
