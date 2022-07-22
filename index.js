@@ -1204,7 +1204,7 @@ const dictionary = [
 	// 	german: 'fliegen'
 	// },
 	// {
-	// 	russian: 'отпуск',
+	// 	russian: 'каникулы',
 	// 	german: 'die Ferien'
 	// },
 	// {
@@ -1743,70 +1743,70 @@ const dictionary = [
 		russian: 'автор',
 		german: 'der Autor, Autoren'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'чистить, убирать',
+		german: 'putzen'
+	},
+	{
+		russian: 'отпуск',
+		german: 'der Urlaub, Urlaube'
+	},
+	{
+		russian: 'договариваться',
+		german: 'sich verabreden'
+	},
+	{
+		russian: 'кинотеатр',
+		german: 'das Kino, Kinos'
+	},
+	{
+		russian: 'театр',
+		german: 'das Theater, Theater'
+	},
+	{
+		russian: 'музей',
+		german: 'das Museum, Museen'
+	},
+	{
+		russian: 'стадион',
+		german: 'das Staduim, Stadien'
+	},
+	{
+		russian: 'выставка',
+		german: 'die Ausstellung, Ausstellungen'
+	},
+	{
+		russian: 'дискотека',
+		german: 'die Disco, Discos'
+	},
+	{
+		russian: 'ванная',
+		german: 'das Bad, Bäder'
+	},
+	{
+		russian: 'охота, желание',
+		german: 'die Lust, Lüste'
+	},
+	{
+		russian: 'наверно, возможно',
+		german: 'vielleicht'
+	},
+	{
+		russian: 'игра',
+		german: 'das Spiel, Spiele'
+	},
+	{
+		russian: 'до',
+		german: 'vor'
+	},
+	{
+		russian: 'после',
+		german: 'nach'
+	},
+	{
+		russian: 'полночь',
+		german: 'die Mitternacht, Mitternächte'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
