@@ -1807,30 +1807,182 @@ const dictionary = [
 		russian: 'полночь',
 		german: 'die Mitternacht, Mitternächte'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'комфортный',
+		german: 'komfortabel'
+	},
+	{
+		russian: 'приятный',
+		german: 'angenehm'
+	},
+	{
+		russian: 'нога (ступня)',
+		german: 'der Fuß, Füße'
+	},
+	{
+		russian: 'просыпаться',
+		german: 'aufstehen'
+	},
+	{
+		russian: 'пауза',
+		german: 'die Pause, Pausen'
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
+	{
+		russian: '',
+		german: ''
+	},
 	
 ];
 
