@@ -1891,30 +1891,30 @@ const dictionary = [
 		russian: 'к сожалению',
 		german: 'leider'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'пить',
+		german: 'trinken'
+	},
+	{
+		russian: 'бар',
+		german: 'die Kneipe, Kneipen'
+	},
+	{
+		russian: 'скоро',
+		german: 'bald'
+	},
+	{
+		russian: 'особенно',
+		german: 'besonders'
+	},
+	{
+		russian: 'вежливо',
+		german: 'höflich'
+	},
+	{
+		russian: 'невежливо',
+		german: 'unhöflich'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
