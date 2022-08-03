@@ -1864,11 +1864,11 @@ const dictionary = [
 		german: 'die Tageszeit, Tageszeiten'
 	},
 	{
-		russian: 'предполдень',
+		russian: 'первая половина дня',
 		german: 'der Vormittag, Vormittage'
 	},
 	{
-		russian: 'первая половина дня',
+		russian: 'полдень',
 		german: 'der Mittag, Mittage'
 	},
 	{
