@@ -1915,66 +1915,66 @@ const dictionary = [
 		russian: 'невежливо',
 		german: 'unhöflich'
 	},
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
+	{
+		russian: 'приглашать',
+		german: 'einladen'
+	},
+	{
+		russian: 'праздник',
+		german: 'die Feier, Feiern'
+	},
+	{
+		russian: 'что-нибудь',
+		german: 'etwas'
+	},
+	{
+		russian: 'вкусно',
+		german: 'lecker'
+	},
+	{
+		russian: 'голод',
+		german: 'der Hunger'
+	},
+	{
+		russian: 'жажда',
+		german: 'der Durst'
+	},
+	{
+		russian: 'любить, предпочитать',
+		german: 'mögen'
+	},
+	{
+		russian: 'пирог',
+		german: 'der Kuchen, Kuchen'
+	},
+	{
+		russian: 'картошка',
+		german: 'die Kartoffel, Kartoffeln'
+	},
+	{
+		russian: 'шоколад',
+		german: 'die Schokolade, Schokoladen'
+	},
+	{
+		russian: 'суп',
+		german: 'die Suppe, Suppen'
+	},
+	{
+		russian: 'яблоко',
+		german: 'der Apfel, Äpfel'
+	},
+	{
+		russian: 'чай',
+		german: 'der Tee, Tees'
+	},
+	{
+		russian: 'жареное мясо',
+		german: 'der Braten, Braten'
+	},
+	{
+		russian: 'хлеб',
+		german: 'das Brot, Brote'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
