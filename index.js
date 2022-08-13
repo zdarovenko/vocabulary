@@ -1991,6 +1991,194 @@ const dictionary = [
 		russian: 'пол, земля',
 		german: 'der Boden, Böden'
 	},
+	{
+		russian: 'рыба',
+		german: 'der Fisch, Fische'
+	},
+	{
+		russian: 'апельсин',
+		german: 'die Orange, Orangen'
+	},
+	{
+		russian: 'сливочное масло',
+		german: 'die Butter'
+	},
+	{
+		russian: 'салат',
+		german: 'der Salat, Salate'
+	},
+	{
+		russian: 'помидор',
+		german: 'die Tomate, Tomaten'
+	},
+	{
+		russian: 'молоко',
+		german: 'die Milch, Milche'
+	},
+	{
+		russian: 'еда',
+		german: 'das Lebensmittel, Lebensmittel'
+	},
+	{
+		russian: 'сыр',
+		german: 'der Käse, Käse'
+	},
+	{
+		russian: 'яйцо',
+		german: 'das Ei, Eier'
+	},
+	{
+		russian: 'колбаса',
+		german: 'die Wurst, Würste'
+	},
+	{
+		russian: 'ветчина',
+		german: 'der Schinken, Schinken'
+	},
+	{
+		russian: 'овощи',
+		german: 'das Gemüse'
+	},
+	{
+		russian: 'фрукты',
+		german: 'das Obst'
+	},
+	{
+		russian: 'вам тоже (в ответ) (2 синонима)',
+		german: 'gleichfalls, ebenfalls'
+	},
+	{
+		russian: 'закуска',
+		german: 'die Vorspeise, Vorspeisen'
+	},
+	{
+		russian: 'главное блюдо',
+		german: 'die Hauptgericht, Hauptgerichte'
+	},
+	{
+		russian: 'десерт',
+		german: 'das Dessert, Desserts'
+	},
+	{
+		russian: 'напиток',
+		german: 'das Getränk, Getränke'
+	},
+	{
+		russian: 'меню (в ресторане)',
+		german: 'die Speisekarte, Speisekarten'
+	},
+	{
+		russian: 'медленно',
+		german: 'langsam'
+	},
+	{
+		russian: 'дверь',
+		german: 'die Tür, Türen'
+	},
+	{
+		russian: 'страх',
+		german: 'die Angst, Ängste'
+	},
+	{
+		russian: 'громко',
+		german: 'laut'
+	},
+	{
+		russian: 'быстро',
+		german: 'schnell'
+	},
+	{
+		russian: 'кладовая',
+		german: 'der Vorratsraum, Vorratsräume'
+	},
+	{
+		russian: 'кричать, звать',
+		german: 'rufen'
+	},
+	{
+		russian: 'корабль',
+		german: 'das Schiff, Schiffe'
+	},
+	{
+		russian: 'бить, стучать',
+		german: 'klopfen'
+	},
+	{
+		russian: 'свет',
+		german: 'das Licht, Lichter'
+	},
+	{
+		russian: 'включать',
+		german: 'schalten'
+	},
+	{
+		russian: 'животное',
+		german: 'das Tier, Tiere'
+	},
+	{
+		russian: 'смеяться',
+		german: 'lachen'
+	},
+	{
+		russian: 'тихо',
+		german: 'leis'
+	},
+	{
+		russian: 'носить (одежду)',
+		german: 'tragen'
+	},
+	{
+		russian: 'совсем, вполне',
+		german: 'ganz'
+	},
+	{
+		russian: 'добрый, милый',
+		german: 'nett'
+	},
+	{
+		russian: 'история',
+		german: 'die Geschichte, Geschichten'
+	},
+	{
+		russian: 'прибираться',
+		german: 'räumen'
+	},
+	{
+		russian: 'объяснять',
+		german: 'erklären'
+	},
+	{
+		russian: 'показывать',
+		german: 'zeigen'
+	},
+	{
+		russian: 'смотреть, глядеть',
+		german: 'schauen'
+	},
+	{
+		russian: 'скучно',
+		german: 'langweilig'
+	},
+	{
+		russian: 'мало',
+		german: 'wenig'
+	},
+	{
+		russian: 'там',
+		german: 'dort'
+	},
+	{
+		russian: 'лежать',
+		german: 'liegen'
+	},
+	{
+		russian: 'прочь',
+		german: 'weg'
+	},
+	{
+		russian: 'направлять, посылать',
+		german: 'schicken'
+	},
 	// {
 	// 	russian: '',
 	// 	german: ''
@@ -2099,47 +2287,7 @@ const dictionary = [
 	// 	russian: '',
 	// 	german: ''
 	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	// {
-	// 	russian: '',
-	// 	german: ''
-	// },
-	
+	// 
 ];
 
 
