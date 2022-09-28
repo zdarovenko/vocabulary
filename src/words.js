@@ -33,7 +33,7 @@ export const VERBS = [
     new Verb('нюхать', 'riechen', 'roch', 'hat gerochen'),
     new Verb('звать, кричать', 'rufen', 'rief', 'hat gerufen'),
     new Verb('делить', 'scheiden', 'schied', 'ist geschieden'),
-    new Verb('спать', 'schlafen', 'schliefen', 'hat geschlafen'),
+    new Verb('спать', 'schlafen', 'schlief', 'hat geschlafen'),
     new Verb('бить', 'schlagen', 'schlug', 'hat geschlagen'),
     new Verb('закрывать', 'schließen', 'schloss', 'geschlossen'),
     new Verb('писать', 'schreiben', 'schrieb', 'hat geschrieben'),

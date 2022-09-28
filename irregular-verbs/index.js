@@ -1,6 +1,6 @@
 import { VERBS } from '../src/words.js';
 import { Counter } from '../src/counter.js';
-import { shuffle } from '../src/utils';
+import { shuffle } from '../src/utils.js';
 
 function clearElements() {
     const elementsToRemove = document.querySelectorAll('.removable');
