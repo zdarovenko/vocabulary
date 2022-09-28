@@ -1,5 +1,6 @@
 import { VERBS } from '../src/words.js';
 import { Counter } from '../src/counter.js';
+import { shuffle } from '../src/utils';
 
 function clearElements() {
     const elementsToRemove = document.querySelectorAll('.removable');
@@ -26,6 +27,7 @@ function refreshTranslation(russian, value) {
 }
 
 function start() {
+    shuffle(VERBS);
     refreshCounter(counter, currentCount, totalCount, errorCount);
     refreshTranslation(russian, VERBS[counter.wordIndex].russian);
     appendElements(main, VERBS[counter.wordIndex].generateWordTemplate());
