@@ -1,9 +1,9 @@
-import { VERBS } from '../src/word-arrays/verbs.js';
+import { NOUNS } from '../src/word-arrays/nouns.js';
 import { Counter } from '../src/counter.js';
 import { shuffle } from '../src/utils.js';
 import { Bindings } from '../src/bindings.js';
 
-const counter = new Counter(VERBS.length);
+const counter = new Counter(NOUNS.length);
 let words;
 
 const bindings = new Bindings([
@@ -63,7 +63,7 @@ window.addEventListener('keyup', (event) => {
 });
 
 function start() {
-    words = shuffle(VERBS);
+    words = shuffle(NOUNS);
     bindings.refresh();
 }
 
