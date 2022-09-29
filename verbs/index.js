@@ -1,45 +1,38 @@
 import { VERBS } from '../src/words.js';
 import { Counter } from '../src/counter.js';
 import { shuffle } from '../src/utils.js';
-
-function clearElements() {
-    const elementsToRemove = document.querySelectorAll('.removable');
-
-    elementsToRemove.forEach((element) => {
-        element.remove();
-    })
-}
-
-function appendElements(parent, elements) {
-    elements.forEach((element) => {
-        parent.appendChild(element);
-    });
-}
-
-function refreshCounter(counter, current, total, error) {
-    current.innerHTML = counter.displayWordIndex;
-    total.innerHTML = counter.totalCount;
-    error.innerHTML = counter.errorsCount;
-}
-
-function refreshTranslation(russian, value) {
-    russian.innerHTML = value;
-}
-
-function start() {
-    shuffle(VERBS);
-    refreshCounter(counter, currentCount, totalCount, errorCount);
-    refreshTranslation(russian, VERBS[counter.wordIndex].russian);
-    appendElements(main, VERBS[counter.wordIndex].generateWordTemplate());
-}
-
-const main = document.getElementById('main');
-const russian = document.getElementById('russian');
-const currentCount = document.getElementById('currentCount');
-const totalCount = document.getElementById('totalCount');
-const errorCount = document.getElementById('errorCount');
+import { Bindings } from '../src/bindings.js';
 
 const counter = new Counter(VERBS.length);
+
+const bindings = new Bindings([
+    {
+        key: 'russian',
+        type: 'plain',
+        value: () => VERBS[counter.wordIndex].russian,
+    },
+    {
+        key: 'total',
+        type: 'plain',
+        value: () => counter.totalCount,
+    },
+    {
+        key: 'current',
+        type: 'plain',
+        value: () => counter.wordIndex + 1,
+    },
+    {
+        key: 'error',
+        type: 'plain',
+        value: () => counter.errorsCount,
+    },
+    {
+        key: 'main',
+        type: 'deep',
+        value: () => VERBS[counter.wordIndex].generateWordTemplate.call(VERBS[counter.wordIndex]),
+        postRefresh: () => VERBS[counter.wordIndex].resetFocus.call(VERBS[counter.wordIndex])
+    },
+])
 
 window.addEventListener('keyup', (event) => {
     if (event.code !== 'Enter') {
@@ -55,21 +48,23 @@ window.addEventListener('keyup', (event) => {
 
         if (counter.full) {
             alert('Все!');
+            bindings.refresh(['current']);
 
             return;
         }
 
-        clearElements();
-        refreshCounter(counter, currentCount, totalCount, errorCount);
-        refreshTranslation(russian, VERBS[counter.wordIndex].russian);
-        appendElements(main, VERBS[counter.wordIndex].generateWordTemplate());
-        VERBS[counter.wordIndex].resetFocus();
+        bindings.refresh();
     } else {
         counter.countError();
-        refreshCounter(counter, currentCount, totalCount, errorCount);
+        bindings.refresh(['error']);
         alert(`Неправильно! Правильный вариант: ${ VERBS[counter.wordIndex].correctWord }`);
     }
 });
+
+function start() {
+    shuffle(VERBS);
+    bindings.refresh();
+}
 
 
 start();

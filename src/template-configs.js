@@ -1,7 +1,7 @@
 export const VERB_CONFIG = [
     {
         tagName: 'div',
-        className: 'flex flex-row removable',
+        className: 'flex flex-row',
         children: [
             {
                 tagName: 'div',
@@ -13,7 +13,7 @@ export const VERB_CONFIG = [
                     },
                     {
                         tagName: 'input',
-                        attributes: [{ name: 'id', value: 'present' }]
+                        attributes: [{ name: 'id', value: 'infinitive' }]
                     }
                 ]
             },
@@ -27,7 +27,7 @@ export const VERB_CONFIG = [
                     },
                     {
                         tagName: 'input',
-                        attributes: [{ name: 'id', value: 'past' }]
+                        attributes: [{ name: 'id', value: 'imperfect' }]
                     }
                 ]
             },

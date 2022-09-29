@@ -19,40 +19,44 @@ class Word {
 
 export class Verb extends Word {
 
-	germanFirst;
-	germanSecond;
-	germanThird;
+	infinitive;
+	imperfect;
+	perfect;
 
-	constructor(russian, germanFirst, germanSecond, germanThird) {
+	constructor(russian, infinitive, imperfect, perfect) {
 		super('verb', russian);
-		this.germanFirst = germanFirst;
-		this.germanSecond = germanSecond;
-		this.germanThird = germanThird;
+		this.infinitive = infinitive;
+		this.imperfect = imperfect;
+		this.perfect = perfect;
 
 		this.templateConfig = VERB_CONFIG;
 	}
 
 	check() {
-		return this.presentInput.value === this.germanFirst && this.pastInput.value === this.germanSecond && this.perfectInput.value === this.germanThird;
+		if (!Boolean(this.infinitiveInput) || !Boolean(this.imperfectInput) || !Boolean(this.perfectInput)) {
+			return false;
+		}
+		
+		return this.infinitiveInput.value === this.infinitive && this.imperfectInput.value === this.imperfect && this.perfectInput.value === this.perfect;
 	}
 
 	resetFocus() {
-		this.presentInput.focus();
+		this.infinitiveInput.focus();
 	}
 
-	get presentInput() {
-		return document.getElementById('present');
+	get infinitiveInput() {
+		return document.getElementById('infinitive') || null;
 	}
 
-	get pastInput() {
-		return document.getElementById('past');
+	get imperfectInput() {
+		return document.getElementById('imperfect') || null;
 	}
 
 	get perfectInput() {
-		return document.getElementById('perfect');
+		return document.getElementById('perfect') || null;
 	}
 
 	get correctWord() {
-		return `${ this.germanFirst } ${ this.germanSecond } ${ this.germanThird }`;
+		return `${ this.infinitive } ${ this.imperfect } ${ this.perfect }`;
 	}
 }
