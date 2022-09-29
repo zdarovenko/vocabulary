@@ -124,6 +124,15 @@ export const NOUN_CONFIG = [
                         attributes: [{ name: 'for', value: 'only-plural' }],
                         content: 'Только множественное число'
                     },
+                    {
+                        tagName: 'input',
+                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'without-article' }]
+                    },
+                    {
+                        tagName: 'label',
+                        attributes: [{ name: 'for', value: 'without-article' }],
+                        content: 'Без артикля'
+                    },
                 ]
             }
         ]

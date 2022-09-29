@@ -64,19 +64,25 @@ export class Noun extends Word {
 	plural;
 	onlySingular;
 	onlyPlural;
+	withoutArticle;
 
-	constructor(russian, article, singular, plural, onlySingular = false, onlyPlural = false) {
+	constructor(russian, article, singular, plural, onlySingular = false, onlyPlural = false, withoutArticle = false) {
 		super('noun', russian);
 		this.article = article;
 		this.singular = singular;
 		this.plural = plural;
 		this.onlySingular = onlySingular;
 		this.onlyPlural = onlyPlural;
+		this.withoutArticle = withoutArticle;
 
 		this.templateConfig = NOUN_CONFIG;
 	}
 
 	check() {
+		if (this.withoutArticleCheckbox.checked) {
+			return !Boolean(this.pluralInput.value) && this.singularInput.value === this.singular && !Boolean(this.articleInput.value);
+		}
+
 		if (this.onlySingularCheckbox.checked) {
 			return this.articleInput.value === this.article && this.singularInput.value === this.singular && !Boolean(this.pluralInput.value);
 		}
@@ -110,6 +116,10 @@ export class Noun extends Word {
 
 	get onlyPluralCheckbox() {
 		return document.getElementById('only-plural');
+	}
+
+	get withoutArticleCheckbox() {
+		return document.getElementById('without-article');
 	}
 
 	get correctWord() {
