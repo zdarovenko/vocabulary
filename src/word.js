@@ -79,16 +79,16 @@ export class Noun extends Word {
 	}
 
 	check() {
-		if (this.withoutArticleCheckbox.checked) {
-			return !Boolean(this.pluralInput.value) && this.singularInput.value.trim() === this.singular && !Boolean(this.articleInput.value);
+		if (this.withoutArticle) {
+			return this.withoutArticleCheckbox.checked && !Boolean(this.pluralInput.value) && this.singularInput.value.trim() === this.singular && !Boolean(this.articleInput.value);
 		}
 
-		if (this.onlySingularCheckbox.checked) {
-			return this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && !Boolean(this.pluralInput.value);
+		if (this.onlySingular) {
+			return this.onlySingularCheckbox.checked && this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && !Boolean(this.pluralInput.value);
 		}
 
-		if (this.onlyPluralCheckbox.checked) {
-			return this.articleInput.value.trim() === this.article && this.pluralInput.value.trim() === this.plural && !Boolean(this.singularInput.value);
+		if (this.onlyPlural) {
+			return this.onlyPluralCheckbox.checked && this.articleInput.value.trim() === this.article && this.pluralInput.value.trim() === this.plural && !Boolean(this.singularInput.value);
 		}
 
 		return this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && this.pluralInput.value.trim() === this.plural;
