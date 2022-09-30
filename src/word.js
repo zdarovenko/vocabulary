@@ -33,7 +33,7 @@ export class Verb extends Word {
 	}
 
 	check() {
-		return this.infinitiveInput.value === this.infinitive && this.imperfectInput.value === this.imperfect && this.perfectInput.value === this.perfect;
+		return this.infinitiveInput.value.trim() === this.infinitive && this.imperfectInput.value.trim() === this.imperfect && this.perfectInput.value.trim() === this.perfect;
 	}
 
 	resetFocus() {
@@ -80,18 +80,18 @@ export class Noun extends Word {
 
 	check() {
 		if (this.withoutArticleCheckbox.checked) {
-			return !Boolean(this.pluralInput.value) && this.singularInput.value === this.singular && !Boolean(this.articleInput.value);
+			return !Boolean(this.pluralInput.value) && this.singularInput.value.trim() === this.singular && !Boolean(this.articleInput.value);
 		}
 
 		if (this.onlySingularCheckbox.checked) {
-			return this.articleInput.value === this.article && this.singularInput.value === this.singular && !Boolean(this.pluralInput.value);
+			return this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && !Boolean(this.pluralInput.value);
 		}
 
 		if (this.onlyPluralCheckbox.checked) {
-			return this.articleInput.value === this.article && this.pluralInput.value === this.plural && !Boolean(this.singularInput.value);
+			return this.articleInput.value.trim() === this.article && this.pluralInput.value.trim() === this.plural && !Boolean(this.singularInput.value);
 		}
 
-		return this.articleInput.value === this.article && this.singularInput.value === this.singular && this.pluralInput.value === this.plural;
+		return this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && this.pluralInput.value.trim() === this.plural;
 	}
 
 	resetFocus() {
@@ -123,11 +123,15 @@ export class Noun extends Word {
 	}
 
 	get correctWord() {
-		if (this.onlySingularCheckbox.checked) {
+		if (this.withoutArticle) {
+			return `${ this.singular }, без артикля`;
+		}
+
+		if (this.onlySingular) {
 			return `${ this.article } ${ this.singular }, только единственное число`;
 		}
 
-		if (this.onlyPluralCheckbox.checked) {
+		if (this.onlyPlural) {
 			return `${ this.article } ${ this.plural }, только множественное число`;
 		}
 
