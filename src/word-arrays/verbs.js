@@ -51,7 +51,7 @@ export const VERBS = [
     new Verb('гнать', 'treiben', 'trieb', 'ist getrieben'),
     new Verb('ступать', 'treten', 'trat', 'ist getreten'),
     new Verb('пить', 'trinken', 'trank', 'hat getrunken'),
-    new Verb('делать', 'tun', 'tat', 'hat getan'),
+    new Verb('делать (что-то)', 'tun', 'tat', 'hat getan'),
     new Verb('забывать', 'vergessen', 'vergaß', 'hat vergessen'),
     new Verb('терять', 'verlieren', 'verlor', 'hat verloren'),
     new Verb('мыть', 'waschen', 'wusch', 'hat gewaschen'),
