@@ -6,10 +6,8 @@ export class Bindings {
         this.config = config;
     }
 
-    refresh(keys = null) {
-        const config = keys || this.config;
-
-        config.forEach((item) => {
+    refresh() {
+        this.config.forEach((item) => {
             const targets = document.querySelectorAll(`[binding="${ item.key }"]`);
 
             switch (item.type) {

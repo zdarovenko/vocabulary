@@ -49,17 +49,16 @@ window.addEventListener('keyup', (event) => {
 
         if (counter.full) {
             alert('Все!');
-            bindings.refresh(['current']);
+            bindings.refresh();
 
             return;
         }
-
-        bindings.refresh();
     } else {
         counter.countError();
-        bindings.refresh(['error']);
         alert(`Неправильно! Правильный вариант: ${ words[counter.wordIndex].correctWord }`);
     }
+
+    bindings.refresh();
 });
 
 function start() {
