@@ -45,7 +45,7 @@ export const NOUNS = [
     new Noun('актер', 'der', 'Schauspieler', 'Schauspieler'),
     new Noun('картина', 'das', 'Bild', 'Bilder'),
     new Noun('образование', 'die', 'Bildung', null, true),
-    new Noun('профессиональное образование', 'die', 'Ausbildung', true),
+    new Noun('профессиональное образование', 'die', 'Ausbildung', null, true),
     new Noun('практика, стажировка', 'das', 'Praktikum', 'Praktika'),
     new Noun('разработчик', 'der', 'Entwickler', 'Entwickler'),
     new Noun('свадьба', 'die', 'Hochzeit', 'Hochzeiten'),

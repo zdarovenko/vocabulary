@@ -1,20 +1,26 @@
 import { VERB_CONFIG, NOUN_CONFIG } from './template-configs.js';
 import { generateTemplate } from './utils.js';
+import { WordForm } from './word-form.js';
 
 class Word {
 	russian;
 	partOfSpeech;
 	templateConfig;
+	wordForm;
 
-	constructor(partOfSpeech, russian) {
+	constructor(partOfSpeech, russian, wordForm) {
 		this.partOfSpeech = partOfSpeech;
 		this.russian = russian;
+		this.wordForm = wordForm;
 	}
 
 	generateWordTemplate() {
 		return generateTemplate(this.templateConfig);
 	}
 
+	check() {
+		return this.wordForm.valid();
+	}
 }
 
 export class Verb extends Word {
@@ -24,7 +30,21 @@ export class Verb extends Word {
 	perfect;
 
 	constructor(russian, infinitive, imperfect, perfect) {
-		super('verb', russian);
+		const wordForm = new WordForm([
+			{
+				key: 'infinitive',
+				validator: infinitive
+			},
+			{
+				key: 'imperfect',
+				validator: imperfect
+			},
+			{
+				key: 'perfect',
+				validator: perfect
+			},
+		]);
+		super('verb', russian, wordForm);
 		this.infinitive = infinitive;
 		this.imperfect = imperfect;
 		this.perfect = perfect;
@@ -32,24 +52,8 @@ export class Verb extends Word {
 		this.templateConfig = VERB_CONFIG;
 	}
 
-	check() {
-		return this.infinitiveInput.value.trim() === this.infinitive && this.imperfectInput.value.trim() === this.imperfect && this.perfectInput.value.trim() === this.perfect;
-	}
-
 	resetFocus() {
-		this.infinitiveInput.focus();
-	}
-
-	get infinitiveInput() {
-		return document.getElementById('infinitive');
-	}
-
-	get imperfectInput() {
-		return document.getElementById('imperfect');
-	}
-
-	get perfectInput() {
-		return document.getElementById('perfect');
+		document.getElementById('infinitive').focus();
 	}
 
 	get correctWord() {
@@ -67,7 +71,33 @@ export class Noun extends Word {
 	withoutArticle;
 
 	constructor(russian, article, singular, plural, onlySingular = false, onlyPlural = false, withoutArticle = false) {
-		super('noun', russian);
+		const wordForm = new WordForm([
+			{
+				key: 'article',
+				validator: article
+			},
+			{
+				key: 'singular',
+				validator: singular
+			},
+			{
+				key: 'plural',
+				validator: plural
+			},
+			{
+				key: 'onlySingular',
+				validator: onlySingular
+			},
+			{
+				key: 'onlyPlural',
+				validator: onlyPlural
+			},
+			{
+				key: 'withoutArticle',
+				validator: withoutArticle
+			},
+		]);
+		super('verb', russian, wordForm);
 		this.article = article;
 		this.singular = singular;
 		this.plural = plural;
@@ -78,48 +108,8 @@ export class Noun extends Word {
 		this.templateConfig = NOUN_CONFIG;
 	}
 
-	check() {
-		if (this.withoutArticle) {
-			return this.withoutArticleCheckbox.checked && !Boolean(this.pluralInput.value) && this.singularInput.value.trim() === this.singular && !Boolean(this.articleInput.value);
-		}
-
-		if (this.onlySingular) {
-			return this.onlySingularCheckbox.checked && this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && !Boolean(this.pluralInput.value);
-		}
-
-		if (this.onlyPlural) {
-			return this.onlyPluralCheckbox.checked && this.articleInput.value.trim() === this.article && this.pluralInput.value.trim() === this.plural && !Boolean(this.singularInput.value);
-		}
-
-		return this.articleInput.value.trim() === this.article && this.singularInput.value.trim() === this.singular && this.pluralInput.value.trim() === this.plural;
-	}
-
 	resetFocus() {
-		this.articleInput.focus();
-	}
-
-	get articleInput() {
-		return document.getElementById('article');
-	}
-
-	get singularInput() {
-		return document.getElementById('singular');
-	}
-
-	get pluralInput() {
-		return document.getElementById('plural');
-	}
-
-	get onlySingularCheckbox() {
-		return document.getElementById('only-singular');
-	}
-
-	get onlyPluralCheckbox() {
-		return document.getElementById('only-plural');
-	}
-
-	get withoutArticleCheckbox() {
-		return document.getElementById('without-article');
+		document.getElementById('article').focus();
 	}
 
 	get correctWord() {

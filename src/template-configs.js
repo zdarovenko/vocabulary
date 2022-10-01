@@ -108,29 +108,29 @@ export const NOUN_CONFIG = [
                 children: [
                     {
                         tagName: 'input',
-                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'only-singular' }]
+                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'onlySingular' }]
                     },
                     {
                         tagName: 'label',
-                        attributes: [{ name: 'for', value: 'only-singular' }],
+                        attributes: [{ name: 'for', value: 'onlySingular' }],
                         content: 'Только единственное число'
                     },
                     {
                         tagName: 'input',
-                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'only-plural' }]
+                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'onlyPlural' }]
                     },
                     {
                         tagName: 'label',
-                        attributes: [{ name: 'for', value: 'only-plural' }],
+                        attributes: [{ name: 'for', value: 'onlyPlural' }],
                         content: 'Только множественное число'
                     },
                     {
                         tagName: 'input',
-                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'without-article' }]
+                        attributes: [{ name: 'type', value: 'checkbox' }, { name: 'id', value: 'withoutArticle' }]
                     },
                     {
                         tagName: 'label',
-                        attributes: [{ name: 'for', value: 'without-article' }],
+                        attributes: [{ name: 'for', value: 'withoutArticle' }],
                         content: 'Без артикля'
                     },
                 ]

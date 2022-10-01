@@ -3,11 +3,11 @@ export class Bindings {
     config;
 
     constructor(config) {
-        this.config = config
+        this.config = config;
     }
 
     refresh(keys = null) {
-        const config = keys || this.config
+        const config = keys || this.config;
 
         config.forEach((item) => {
             const targets = document.querySelectorAll(`[binding="${ item.key }"]`);
@@ -16,19 +16,19 @@ export class Bindings {
                 case 'plain':
                     targets.forEach((element) => {
                         element.innerHTML = item.value();
-                    })
+                    });
 
                     break;
                 case 'deep':
                     targets.forEach((element) => {
                         element.childNodes.forEach((el) => {
                             el.remove();
-                        })
+                        });
 
                         item.value().forEach((templateElement) => {
                             element.appendChild(templateElement);
                         })
-                    })
+                    });
 
                     break;
             }
