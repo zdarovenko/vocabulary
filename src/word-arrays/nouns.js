@@ -254,7 +254,6 @@ export const NOUNS = [
     new Noun('картошка', 'die', 'Kartoffel', 'Kartoffeln'),
     new Noun('шоколад', 'die', 'Schokolade', 'Schokoladen'),
     new Noun('суп', 'die', 'Suppe', 'Suppen'),
-    new Noun('яблоко', 'der', 'Apfel', 'Äpfel'),
     new Noun('чай', 'der', 'Tee', 'Tees'),
     new Noun('жареное мясо', 'der', 'Braten', 'Braten'),
     new Noun('хлеб', 'das', 'Brot', 'Brote'),
