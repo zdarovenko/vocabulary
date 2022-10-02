@@ -128,3 +128,29 @@ export class Noun extends Word {
 		return `${ this.article } ${ this.singular }, ${ this.plural }`;
 	}
 }
+
+export class AdjectiveAdverb extends Word {
+
+	german;
+
+	constructor(russian, german) {
+		const wordForm = new WordForm([
+			{
+				key: 'german',
+				validator: german
+			},
+		]);
+		super('verb', russian, wordForm);
+		this.german = german;
+
+		this.templateConfig = ADJECTIVE_ADVERB_CONFIG;
+	}
+
+	resetFocus() {
+		document.getElementById('german').focus();
+	}
+
+	get correctWord() {
+		return this.german;
+	}
+}

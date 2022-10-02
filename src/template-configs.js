@@ -138,3 +138,26 @@ export const NOUN_CONFIG = [
         ]
     }
 ];
+
+export const ADJECTIVE_ADVERB_CONFIG = [
+    {
+        tagName: 'div',
+        className: 'flex flex-row',
+        children: [
+            {
+                tagName: 'div',
+                className: 'flex flex-column',
+                children: [
+                    {
+                        tagName: 'span',
+                        content: 'Deutsch'
+                    },
+                    {
+                        tagName: 'input',
+                        attributes: [{ name: 'id', value: 'german' }]
+                    }
+                ]
+            },
+        ]
+    }
+];

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verbs</title>
+    <link rel="stylesheet" type="text/css" href="/main/style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="flex flex-column">
+    <a href="..">Dashboard</a>
+    <span binding="russian"></span>
+    <div binding="main"></div>
+    <div class="flex flex-column">
+        <div class="flex flex-row">
+            <span>Слово: </span>
+            <span binding="current"></span>/<span binding="total"></span>
+        </div>
+        <div class="flex flex-row">
+            <span>Ошибок: </span>
+            <span binding="error"></span>
+        </div>
+    </div>
+</div>
+<script type="module" src="/adjectives-adverbs/index.js"></script>
+</body>
+</html>
