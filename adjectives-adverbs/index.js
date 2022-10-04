@@ -50,15 +50,14 @@ window.addEventListener('keyup', (event) => {
         if (counter.full) {
             alert('Все!');
             bindings.refresh();
-
-            return;
         }
+
+        bindings.refresh();
     } else {
         counter.countError();
         alert(`Неправильно! Правильный вариант: ${ words[counter.wordIndex].correctWord }`);
+        bindings.refresh(['error']);
     }
-
-    bindings.refresh();
 });
 
 function start() {
