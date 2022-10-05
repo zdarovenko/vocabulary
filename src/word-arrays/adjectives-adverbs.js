@@ -101,8 +101,53 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('жестко, крепко', 'fest'),
     new AdjectiveAdverb('просто, прямо', 'gerade'),
     new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
+    // new AdjectiveAdverb('случайно', 'zufällig'),
 ];
 
+// {
+//     russian: 'с (для глагола)',
+//         german: 'damit'
+// },
+
+// {
+//     russian: 'с',
+//         german: 'mit'
+// },
+// {
+//     russian: 'с',
+//         german: 'mit'
+// },
+// {
+//     russian: 'с',
+//         german: 'mit'
+// },
+// {
+//     russian: 'с',
+//         german: 'mit'
+// },
+// {
+//     russian: 'с',
+//         german: 'mit'
+// },
+// {
+//     russian: 'с',
+//         german: 'mit'
+// },
 // {
 //     russian: 'с',
 //         german: 'mit'
