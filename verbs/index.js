@@ -49,7 +49,8 @@ window.addEventListener('keyup', (event) => {
 
         if (counter.full) {
             alert('Все!');
-            bindings.refresh();
+
+            return;
         }
 
         bindings.refresh();

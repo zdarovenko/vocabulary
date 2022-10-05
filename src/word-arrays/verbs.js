@@ -1,6 +1,7 @@
 import { Verb } from '../word.js';
 
 export const VERBS = [
+    new Verb('происходить', 'passieren', 'passierte', 'ist passiert'),
     new Verb('начинать', 'beginnen', 'begann', 'hat begonnen'),
     new Verb('предлагать', 'bieten', 'bot', 'hat geboten'),
     new Verb('просить', 'bitten', 'bat', 'hat gebeten'),

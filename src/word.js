@@ -1,4 +1,4 @@
-import { VERB_CONFIG, NOUN_CONFIG } from './template-configs.js';
+import { VERB_CONFIG, NOUN_CONFIG, ADJECTIVE_ADVERB_CONFIG } from './template-configs.js';
 import { generateTemplate } from './utils.js';
 import { WordForm } from './word-form.js';
 
@@ -97,7 +97,7 @@ export class Noun extends Word {
 				validator: withoutArticle
 			},
 		]);
-		super('verb', russian, wordForm);
+		super('noun', russian, wordForm);
 		this.article = article;
 		this.singular = singular;
 		this.plural = plural;
@@ -140,7 +140,7 @@ export class AdjectiveAdverb extends Word {
 				validator: german
 			},
 		]);
-		super('verb', russian, wordForm);
+		super('adjectiveAdverb', russian, wordForm);
 		this.german = german;
 
 		this.templateConfig = ADJECTIVE_ADVERB_CONFIG;

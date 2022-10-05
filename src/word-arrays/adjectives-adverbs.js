@@ -76,7 +76,6 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('добрый, милый', 'nett'),
     new AdjectiveAdverb('скучно', 'langweilig'),
     new AdjectiveAdverb('мало', 'wenig'),
-    new AdjectiveAdverb('происходить', 'passieren'),
     new AdjectiveAdverb('свежий', 'frisch'),
     new AdjectiveAdverb('хрустящий', 'knackig'),
     new AdjectiveAdverb('чистый', 'sauber'),
@@ -100,7 +99,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('б/у', 'gebraucht'),
     new AdjectiveAdverb('торопливо, поспешно', 'eilig'),
     new AdjectiveAdverb('жестко, крепко', 'fest'),
-    new AdjectiveAdverb('просто', 'gerade'),
+    new AdjectiveAdverb('просто, прямо', 'gerade'),
     new AdjectiveAdverb('случайно', 'zufällig'),
 ];
 
