@@ -23,6 +23,20 @@ export const VERB_CONFIG = [
                 children: [
                     {
                         tagName: 'span',
+                        content: 'Er/sie/es'
+                    },
+                    {
+                        tagName: 'input',
+                        attributes: [{ name: 'id', value: 'declination' }]
+                    }
+                ]
+            },
+            {
+                tagName: 'div',
+                className: 'flex flex-column',
+                children: [
+                    {
+                        tagName: 'span',
                         content: 'Partizip II'
                     },
                     {

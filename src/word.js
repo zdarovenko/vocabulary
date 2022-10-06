@@ -26,14 +26,19 @@ class Word {
 export class Verb extends Word {
 
 	infinitive;
+	declination;
 	imperfect;
 	perfect;
 
-	constructor(russian, infinitive, imperfect, perfect) {
+	constructor(russian, infinitive, declination, imperfect, perfect) {
 		const wordForm = new WordForm([
 			{
 				key: 'infinitive',
 				validator: infinitive
+			},
+			{
+				key: 'declination',
+				validator: declination
 			},
 			{
 				key: 'imperfect',
@@ -46,6 +51,7 @@ export class Verb extends Word {
 		]);
 		super('verb', russian, wordForm);
 		this.infinitive = infinitive;
+		this.declination = declination;
 		this.imperfect = imperfect;
 		this.perfect = perfect;
 
@@ -57,7 +63,7 @@ export class Verb extends Word {
 	}
 
 	get correctWord() {
-		return `${ this.infinitive } ${ this.imperfect } ${ this.perfect }`;
+		return `${ this.infinitive } ${ this.declination } ${ this.imperfect } ${ this.perfect }`;
 	}
 }
 
