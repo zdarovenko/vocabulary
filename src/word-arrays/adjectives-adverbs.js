@@ -101,6 +101,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('жестко, крепко', 'fest'),
     new AdjectiveAdverb('просто, прямо', 'gerade'),
     new AdjectiveAdverb('случайно', 'zufällig'),
+    new AdjectiveAdverb('публично', 'öffentlich'),
     // new AdjectiveAdverb('случайно', 'zufällig'),
     // new AdjectiveAdverb('случайно', 'zufällig'),
     // new AdjectiveAdverb('случайно', 'zufällig'),
@@ -118,6 +119,7 @@ export const ADJECTIVES_ADVERBS = [
     // new AdjectiveAdverb('случайно', 'zufällig'),
     // new AdjectiveAdverb('случайно', 'zufällig'),
 ];
+
 
 // {
 //     russian: 'с (для глагола)',
