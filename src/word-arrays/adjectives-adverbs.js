@@ -99,10 +99,11 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('б/у', 'gebraucht'),
     new AdjectiveAdverb('торопливо, поспешно', 'eilig'),
     new AdjectiveAdverb('жестко, крепко', 'fest'),
-    new AdjectiveAdverb('просто, прямо', 'gerade'),
+    new AdjectiveAdverb('прямо, просто', 'gerade'),
     new AdjectiveAdverb('случайно', 'zufällig'),
     new AdjectiveAdverb('публично', 'öffentlich'),
-    // new AdjectiveAdverb('случайно', 'zufällig'),
+    new AdjectiveAdverb('незнакомый, чужой, неизвестный', 'fremd'),
+
     // new AdjectiveAdverb('случайно', 'zufällig'),
     // new AdjectiveAdverb('случайно', 'zufällig'),
     // new AdjectiveAdverb('случайно', 'zufällig'),

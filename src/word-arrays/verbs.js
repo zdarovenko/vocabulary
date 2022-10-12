@@ -169,8 +169,9 @@ export const VERBS = [
     new Verb('отезжать, отправляться', 'fahren ab', 'fährt ab', 'fuhr ab', 'ist abgefahren'),
     new Verb('прощаться', 'sich verabschieden', 'verabschiedet', 'verabschiedete', 'hat verabschiedet'),
     new Verb('использовать, пользоваться', 'benutzen', 'benutzt', 'benutzte', 'hat benutzt'),
-    // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
-    // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
+    new Verb('забирать', 'holen ab', 'holt ab', 'holte ab', 'hat abgeholt'),
+    new Verb('подготавливать, приготавливать', 'bereiten vor', 'bereitet vor', 'bereitete vor', 'hat vorbereitet'),
+
     // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
     // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
     // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
