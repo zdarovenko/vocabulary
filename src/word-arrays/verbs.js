@@ -83,7 +83,7 @@ export const VERBS = [
     new Verb('печь, выпекать', 'backen', 'backt', 'backte', 'hat gebacken'),
     new Verb('менять', 'wechseln', 'wechselt', 'wechselte', 'ist gewechselt'),
     new Verb('заказывать', 'bestellen', 'bestellt', 'bestellte', 'hat bestellt'),
-    new Verb('светить', 'scheinen', 'scheint', 'schien', '', 'hat geschienen'),
+    new Verb('светить', 'scheinen', 'scheint', 'schien', 'hat geschienen'),
     new Verb('пометить крестиком', 'kreuzen', 'kreuzt', 'kreuzte', 'hat gekreuzt'),
     new Verb('делать', 'machen', 'macht', 'machte', 'hat gemacht'),
     new Verb('упорядочивать', 'ordnen', 'ordnet', 'ordnete', 'hat geordnet'),
