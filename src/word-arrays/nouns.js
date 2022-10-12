@@ -379,9 +379,11 @@ export const NOUNS = [
     new Noun('транспортное средство', 'das', 'Verkehrsmittel', 'Verkehrsmittel'),
     new Noun('свинья (самка)', 'die', 'Sau', 'Säue'),
     new Noun('средство', 'das', 'Mittel', 'Mittel'),
+    new Noun('особенность', 'die', 'Besonderheit', 'Besonderheiten'),
     // new Noun('остров', 'die', 'Insel', 'Inseln'),
     // new Noun('остров', 'die', 'Insel', 'Inseln'),
     // new Noun('остров', 'die', 'Insel', 'Inseln'),
     // new Noun('остров', 'die', 'Insel', 'Inseln'),
     // new Noun('остров', 'die', 'Insel', 'Inseln'),
 ];
+
