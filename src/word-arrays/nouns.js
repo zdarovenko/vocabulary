@@ -383,8 +383,8 @@ export const NOUNS = [
     new Noun('автобус', 'der', 'Bus', 'Busse'),
     new Noun('пианино', 'das', 'Klavier', 'Klaviere'),
 
-    // new Noun('остров', 'die', 'Insel', 'Inseln'),
-    // new Noun('остров', 'die', 'Insel', 'Inseln'),
+    new Noun('растение', 'die', 'Pflanze', 'Pflanzen'),
+    new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
     // new Noun('остров', 'die', 'Insel', 'Inseln'),
 ];
 

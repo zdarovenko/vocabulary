@@ -58,7 +58,7 @@ export const VERBS = [
     new Verb('мыть', 'waschen', 'wäscht', 'wusch', 'hat gewaschen'),
     new Verb('бросать', 'werfen', 'wirft', 'warf', 'hat geworfen'),
     new Verb('знать, уметь', 'wissen', 'weiß', 'wusste', 'hat gewusst'),
-    new Verb('тащить', 'ziehen', 'zieht', 'zog', 'ist gezogen'),
+    new Verb('тащить', 'ziehen', 'zieht', 'zog', 'hat gezogen'),
     new Verb('спрашивать', 'fragen', 'fragt', 'fragte', 'hat gefragt'),
     new Verb('отвечать', 'antworten', 'antwortet', 'antwortete', 'hat geantwortet'),
     new Verb('работать', 'arbeiten', 'arbeitet', 'arbeitete', 'hat gearbeitet'),
@@ -171,6 +171,9 @@ export const VERBS = [
     new Verb('использовать, пользоваться', 'benutzen', 'benutzt', 'benutzte', 'hat benutzt'),
     new Verb('забирать', 'holen ab', 'holt ab', 'holte ab', 'hat abgeholt'),
     new Verb('подготавливать, приготавливать', 'bereiten vor', 'bereitet vor', 'bereitete vor', 'hat vorbereitet'),
+    new Verb('переезжать', 'ziehen um', 'zieht um', 'zog um', 'ist umgezogen'),
+    new Verb('таскать', 'schleppen', 'schleppt', 'schleppte', 'hat geschleppt'),
+    new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
 
     // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
     // new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
