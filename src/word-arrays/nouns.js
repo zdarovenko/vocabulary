@@ -302,7 +302,7 @@ export const NOUNS = [
     new Noun('выпечка', 'die', 'Backware', 'Backwaren'),
     new Noun('кассирша', 'die', 'Kassiererin', 'Kassiererinnen'),
     new Noun('касса', 'die', 'Kasse', 'Kassen'),
-    new Noun('магазинная тележка', 'die', 'Einkaufswagen', 'Einkaufswägen'),
+    new Noun('магазинная тележка', 'der', 'Einkaufswagen', 'Einkaufswägen'),
     new Noun('стаканчик (упаковка)', 'die', 'Büchse', 'Büchsen'),
     new Noun('тюбик, трубка', 'die', 'Tube', 'Tuben'),
     new Noun('пакет', 'die', 'Tüte', 'Tüten'),
