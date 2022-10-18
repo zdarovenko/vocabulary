@@ -120,7 +120,7 @@ export const VERBS = [
     new Verb('получать', 'bekommen', 'bekommt', 'bekam', 'hat bekommen'),
     new Verb('называть', 'nennen', 'nennt', 'nannte', 'hat genannt'),
     new Verb('хотеть, желать', 'wollen', 'will', 'wollte', 'hat gewollt'),
-    new Verb('звонить (кому-то)', 'rufen an', 'rief an', 'hat angerufen'),
+    new Verb('звонить (кому-то)', 'rufen an', 'ruft an', 'rief an', 'hat angerufen'),
     new Verb('торговать', 'handeln', 'handelt', 'handelte', 'hat gehandelt'),
     new Verb('рыться, выбирать (сленг)', 'stöbern', 'stöbert', 'stöberte', 'hat gestöbert'),
     new Verb('строить', 'bauen', 'baut', 'baute', 'hat gebaut'),
