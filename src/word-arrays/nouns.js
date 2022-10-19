@@ -382,9 +382,16 @@ export const NOUNS = [
     new Noun('особенность', 'die', 'Besonderheit', 'Besonderheiten'),
     new Noun('автобус', 'der', 'Bus', 'Busse'),
     new Noun('пианино', 'das', 'Klavier', 'Klaviere'),
-
     new Noun('растение', 'die', 'Pflanze', 'Pflanzen'),
     new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
-    // new Noun('остров', 'die', 'Insel', 'Inseln'),
+    new Noun('распространение', 'die', 'Verbreitung', null, true),
+    new Noun('уровень, класс', 'das', 'Niveau', 'Niveaus'),
+    new Noun('банк', 'die', 'Bank', 'Banken'),
+    new Noun('лавка, скамейка', 'die', 'Bank', 'Bänke'),
+    new Noun('кафе', 'das', 'Cafe', 'Cafes'),
+    new Noun('середина', 'die', 'Mitte', 'Mitten'),
+    // new Noun('газета', 'das', 'Zentrum', 'Zentren'),
+    // new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
+    // new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
+    // new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
 ];
-
