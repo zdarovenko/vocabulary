@@ -390,8 +390,8 @@ export const NOUNS = [
     new Noun('лавка, скамейка', 'die', 'Bank', 'Bänke'),
     new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     new Noun('середина', 'die', 'Mitte', 'Mitten'),
-    // new Noun('газета', 'das', 'Zentrum', 'Zentren'),
-    // new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
-    // new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
-    // new Noun('газета', 'die', 'Zeitung', 'Zeitungen'),
+    new Noun('центр (города)', 'das', 'Zentrum', 'Zentren'),
+    new Noun('почта', 'die', 'Post', 'Posten'),
+    new Noun('светофор, светильник', 'die', 'Ampel', 'Ampeln'),
+    new Noun('кафе', 'das', 'Cafe', 'Cafes'),
 ];
