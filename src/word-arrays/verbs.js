@@ -175,6 +175,7 @@ export const VERBS = [
     new Verb('таскать', 'schleppen', 'schleppt', 'schleppte', 'hat geschleppt'),
     new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     new Verb('распространять', 'verbreiten', 'verbreitet', 'verbreitete', 'hat verbreitet'),
+    new Verb('поворачивать, сворачивать', 'biegen ab', 'biegt ab', 'bog ab', 'ist abgebogen'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
