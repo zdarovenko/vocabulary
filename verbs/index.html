@@ -6,21 +6,18 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <div class="flex flex-column">
-        <a href="..">Dashboard</a>
-        <span binding="russian"></span>
-        <div binding="main"></div>
-        <div class="flex flex-column">
-            <div class="flex flex-row">
-                <span>Слово: </span>
-                <span binding="current"></span>/<span binding="total"></span>
-            </div>
-            <div class="flex flex-row">
-                <span>Ошибок: </span>
-                <span binding="error"></span>
-            </div>
+<div class="flex flex-column" id="body">
+    <a href="..">Dashboard</a>
+
+    <div class="flex flex-row">
+        <input id="count" type="number">
+        <div id="button" class="flex flex-row">
+            Start
         </div>
     </div>
-    <script type="module" src="/verbs/index.js"></script>
+
+    <div id="dynamic"></div>
+</div>
+<script type="module" src="/verbs/index.js"></script>
 </body>
 </html>
