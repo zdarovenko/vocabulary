@@ -15,7 +15,7 @@ export const PREPOSITIONS = [
     new Preposition('кроме, за исключением', 'außer', 'D'),
     new Preposition('у, для (работаю)', 'bei', 'D'),
     new Preposition('с (момента), на протяжении', 'seit', 'D'),
-    new Preposition('из, от (откуда-то)', 'von', 'D'),
+    new Preposition('из, от', 'von', 'D'),
     new Preposition('к, в (куда-то)', 'zu', 'D'),
     new Preposition('напротив, по отношению к', 'gegenüber', 'D'),
     new Preposition('с (момента)', 'ab', 'D'),
