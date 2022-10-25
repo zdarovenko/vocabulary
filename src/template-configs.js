@@ -172,6 +172,70 @@ export const ADJECTIVE_ADVERB_CONFIG = [
                     }
                 ]
             },
+            {
+                tagName: 'div',
+                className: 'flex flex-column',
+                children: [
+                    {
+                        tagName: 'span',
+                        content: 'Fall'
+                    },
+                    {
+                        tagName: 'select',
+                        attributes: [{ name: 'id', value: 'declinationCase' }, { name: 'oninput', value: 'this.blur()' }, { name: 'null-text', value: 'case' }],
+                        children: [
+                            {
+                                tagName: 'option',
+                                attributes: [{ name: 'value', value: '' }],
+                                content: 'Выбрать'
+                            },
+                            {
+                                tagName: 'option',
+                                attributes: [{ name: 'value', value: 'D' }],
+                                content: 'Dativ'
+                            },
+                            {
+                                tagName: 'option',
+                                attributes: [{ name: 'value', value: 'A' }],
+                                content: 'Akkusativ'
+                            },
+                            {
+                                tagName: 'option',
+                                attributes: [{ name: 'value', value: 'G' }],
+                                content: 'Genitiv'
+                            },
+                            {
+                                tagName: 'option',
+                                attributes: [{ name: 'value', value: 'AD' }],
+                                content: 'Akkusativ und Dativ'
+                            },
+                        ]
+                    }
+                ]
+            },
+        ]
+    }
+];
+
+export const PREPOSITION_CONFIG = [
+    {
+        tagName: 'div',
+        className: 'flex flex-row',
+        children: [
+            {
+                tagName: 'div',
+                className: 'flex flex-column',
+                children: [
+                    {
+                        tagName: 'span',
+                        content: 'Deutsch'
+                    },
+                    {
+                        tagName: 'input',
+                        attributes: [{ name: 'id', value: 'german' }]
+                    }
+                ]
+            },
         ]
     }
 ];

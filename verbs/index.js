@@ -28,6 +28,10 @@ function start(wordsCount = VERBS.length) {
                 return;
             }
 
+            if (counter.full) {
+                return;
+            }
+
             event.preventDefault();
 
             const result = words[counter.wordIndex].check();

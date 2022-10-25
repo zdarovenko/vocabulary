@@ -1,4 +1,4 @@
-import { NOUNS } from '../src/word-arrays/nouns.js';
+import { PREPOSITIONS } from '../src/word-arrays/prepositions.js';
 import { Counter } from '../src/counter.js';
 import { shuffle } from '../src/utils.js';
 import { Bindings } from '../src/bindings.js';
@@ -14,14 +14,14 @@ const countInput = document.getElementById('count');
 document.getElementById('button').addEventListener('click', function () {
     this.innerHTML = 'Restart';
     const value = Boolean(countInput.value) && Number(countInput.value);
-    if (Boolean(value) && value <= NOUNS.length) {
+    if (Boolean(value) && value <= PREPOSITIONS.length) {
         start(value)
     } else {
         start();
     }
 });
 
-function start(wordsCount = NOUNS.length) {
+function start(wordsCount = PREPOSITIONS.length) {
     if (!started) {
         window.addEventListener('keyup', (event) => {
             if (event.code !== 'Enter') {
@@ -40,6 +40,7 @@ function start(wordsCount = NOUNS.length) {
                 counter.increase();
 
                 if (counter.full) {
+                    console.log('counter', counter);
                     alert('Все!');
 
                     return;
@@ -57,7 +58,7 @@ function start(wordsCount = NOUNS.length) {
     }
 
     document.getElementById('dynamic').innerHTML = dynamicTemplate;
-    words = shuffle(NOUNS.slice(NOUNS.length - wordsCount));
+    words = shuffle(PREPOSITIONS.slice(PREPOSITIONS.length - wordsCount));
     counter = new Counter(wordsCount);
     bindings = new Bindings([
         {
@@ -90,3 +91,4 @@ function start(wordsCount = NOUNS.length) {
 
     bindings.refresh();
 }
+

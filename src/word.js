@@ -160,3 +160,56 @@ export class AdjectiveAdverb extends Word {
 		return this.german;
 	}
 }
+
+export class Preposition extends Word {
+
+	german;
+	declinationCase;
+
+	constructor(russian, german, declinationCase) {
+		const wordForm = new WordForm([
+			{
+				key: 'german',
+				validator: german
+			},
+			{
+				key: 'declinationCase',
+				validator: declinationCase
+			},
+		]);
+		super('preposition', russian, wordForm);
+		this.german = german;
+		this.declinationCase = declinationCase;
+
+		this.templateConfig = ADJECTIVE_ADVERB_CONFIG;
+	}
+
+	resetFocus() {
+		document.getElementById('german').focus();
+	}
+
+	get correctWord() {
+		let declinationCase;
+
+		switch (this.declinationCase) {
+			case 'D':
+				declinationCase = 'Dativ';
+
+				break;
+			case 'A':
+				declinationCase = 'Akkusativ';
+
+				break;
+			case 'G':
+				declinationCase = 'Genitiv';
+
+				break;
+			case 'AD':
+				declinationCase = 'Akkusativ und Dativ';
+
+				break;
+		}
+
+		return `${ this.german } + ${ declinationCase }`;
+	}
+}
