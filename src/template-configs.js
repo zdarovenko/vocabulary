@@ -153,7 +153,7 @@ export const NOUN_CONFIG = [
     }
 ];
 
-export const ADJECTIVE_ADVERB_CONFIG = [
+export const PREPOSITION_CONFIG = [
     {
         tagName: 'div',
         className: 'flex flex-row',
@@ -217,7 +217,7 @@ export const ADJECTIVE_ADVERB_CONFIG = [
     }
 ];
 
-export const PREPOSITION_CONFIG = [
+export const ADJECTIVE_ADVERB_CONFIG = [
     {
         tagName: 'div',
         className: 'flex flex-row',

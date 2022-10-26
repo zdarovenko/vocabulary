@@ -1,4 +1,4 @@
-import { VERB_CONFIG, NOUN_CONFIG, ADJECTIVE_ADVERB_CONFIG } from './template-configs.js';
+import { VERB_CONFIG, NOUN_CONFIG, ADJECTIVE_ADVERB_CONFIG, PREPOSITION_CONFIG } from './template-configs.js';
 import { generateTemplate } from './utils.js';
 import { WordForm } from './word-form.js';
 
@@ -181,7 +181,7 @@ export class Preposition extends Word {
 		this.german = german;
 		this.declinationCase = declinationCase;
 
-		this.templateConfig = ADJECTIVE_ADVERB_CONFIG;
+		this.templateConfig = PREPOSITION_CONFIG;
 	}
 
 	resetFocus() {

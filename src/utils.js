@@ -41,3 +41,24 @@ export function shuffle(array) {
 
     return result;
 }
+
+export function takeLastFromMultiple(count, ...arrays) {
+    let i = 0;
+    let wordIndexOffset = 1;
+    const result = [];
+
+    while (i < count) {
+        for (const array of arrays) {
+            if (i >= count) {
+                break;
+            }
+
+            result.push(array[array.length - wordIndexOffset]);
+            i++;
+        }
+
+        wordIndexOffset++;
+    }
+
+    return result;
+}
