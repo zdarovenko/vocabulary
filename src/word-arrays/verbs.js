@@ -166,7 +166,7 @@ export const VERBS = [
     new Verb('приниматься', 'unternehmen', 'unternimmt', 'unternahm', 'hat unternommen'),
     new Verb('прибывать, приезжать', 'kommen an', 'kommt an', 'kam an', 'ist angekommen'),
     new Verb('смотреть телевизор', 'sehen fern', 'sieht fern', 'sah fern', 'hat ferngesehen'),
-    new Verb('отезжать, отправляться', 'fahren ab', 'fährt ab', 'fuhr ab', 'ist abgefahren'),
+    new Verb('отъезжать, отправляться', 'fahren ab', 'fährt ab', 'fuhr ab', 'ist abgefahren'),
     new Verb('прощаться', 'sich verabschieden', 'verabschiedet', 'verabschiedete', 'hat verabschiedet'),
     new Verb('использовать, пользоваться', 'benutzen', 'benutzt', 'benutzte', 'hat benutzt'),
     new Verb('забирать', 'holen ab', 'holt ab', 'holte ab', 'hat abgeholt'),
