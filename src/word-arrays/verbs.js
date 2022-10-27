@@ -135,7 +135,7 @@ export const VERBS = [
     new Verb('приглашать', 'einladen', 'lädt ein', 'lud ein', 'hat eingeladen'),
     new Verb('любить, предпочитать', 'mögen', 'mag', 'mochte', 'hat gemocht'),
     new Verb('бить, стучать', 'klopfen', 'klopft', 'klopfte', 'hat geklopft'),
-    new Verb('выключать', 'schalten', 'schaltet', 'schaltete', 'hat geschaltet'),
+    new Verb('включать', 'schalten', 'schaltet', 'schaltete', 'hat geschaltet'),
     new Verb('смеяться', 'lachen', 'lacht', 'lachte', 'hat gelacht'),
     new Verb('прибираться', 'räumen', 'räumt', 'räumte', 'hat geräumt'),
     new Verb('показывать', 'zeigen', 'zeigt', 'zeigte', 'hat gezeigt'),
