@@ -36,4 +36,11 @@ export const PREPOSITIONS = [
     new Preposition('под', 'unter', 'AD'),
     new Preposition('перед', 'vor', 'AD'),
     new Preposition('между', 'zwischen', 'AD'),
+
+    // new Preposition('между', 'zwischen', 'AD'),
+    // new Preposition('между', 'zwischen', 'AD'),
+    // new Preposition('между', 'zwischen', 'AD'),
+    // new Preposition('между', 'zwischen', 'AD'),
+    // new Preposition('между', 'zwischen', 'AD'),
+    // new Preposition('между', 'zwischen', 'AD'),
 ];
