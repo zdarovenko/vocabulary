@@ -171,7 +171,7 @@ export const VERBS = [
     new Verb('использовать, пользоваться', 'benutzen', 'benutzt', 'benutzte', 'hat benutzt'),
     new Verb('забирать', 'abholen', 'holt ab', 'holte ab', 'hat abgeholt'),
     new Verb('подготавливать, приготавливать', 'vorbereiten', 'bereitet vor', 'bereitete vor', 'hat vorbereitet'),
-    new Verb('переезжать', 'ziehen um', 'zieht um', 'zog um', 'ist umgezogen'),
+    new Verb('переезжать', 'umziehen', 'zieht um', 'zog um', 'ist umgezogen'),
     new Verb('таскать', 'schleppen', 'schleppt', 'schleppte', 'hat geschleppt'),
     new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     new Verb('распространять', 'verbreiten', 'verbreitet', 'verbreitete', 'hat verbreitet'),
