@@ -1,7 +1,7 @@
 export const VERB_CONFIG = [
     {
         tagName: 'div',
-        className: 'flex flex-row',
+        className: 'flex flex-row flex-wrap',
         children: [
             {
                 tagName: 'div',
@@ -70,7 +70,7 @@ export const NOUN_CONFIG = [
         children: [
             {
                 tagName: 'div',
-                className: 'flex flex-row',
+                className: 'flex flex-row flex-wrap',
                 children: [
                     {
                         tagName: 'div',
@@ -118,7 +118,7 @@ export const NOUN_CONFIG = [
             },
             {
                 tagName: 'div',
-                className: 'flex flex-row',
+                className: 'flex flex-row flex-wrap',
                 children: [
                     {
                         tagName: 'input',
@@ -156,7 +156,7 @@ export const NOUN_CONFIG = [
 export const PREPOSITION_CONFIG = [
     {
         tagName: 'div',
-        className: 'flex flex-row',
+        className: 'flex flex-row flex-wrap',
         children: [
             {
                 tagName: 'div',
@@ -220,7 +220,7 @@ export const PREPOSITION_CONFIG = [
 export const ADJECTIVE_ADVERB_CONFIG = [
     {
         tagName: 'div',
-        className: 'flex flex-row',
+        className: 'flex flex-row flex-wrap',
         children: [
             {
                 tagName: 'div',
