@@ -185,7 +185,7 @@ export const VERBS = [
     new Verb('выглядеть, казаться', 'aussehen', 'sieht aus', 'sah aus', 'hat ausgesehen'),
     new Verb('кивать', 'nicken', 'nickt', 'nickte', 'hat genickt'),
     new Verb('умирать', 'sterben', 'stirbt', 'starb', 'ist gestorben'),
-    new Verb('предлагать', 'vorshlagen', 'schlägt vor', 'schlug vor', 'hat vorgeschlagen'),
+    new Verb('предлагать', 'vorschlagen', 'schlägt vor', 'schlug vor', 'hat vorgeschlagen'),
     new Verb('ночевать, переночевать', 'übernachten', 'übernachtet', 'übernachtete', 'hat übernachtet'),
     new Verb('доставать, вытаскивать, забирать', 'holen', 'holt', 'holte', 'hat geholt'),
     new Verb('поднимать (бокал)', 'heben', 'hebt', 'hob', 'hat gehoben'),
