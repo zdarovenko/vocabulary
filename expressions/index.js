@@ -1,16 +1,11 @@
-import { ADJECTIVES_ADVERBS } from '../src/word-arrays/adjectives-adverbs.js';
-import { PREPOSITIONS } from '../src/word-arrays/prepositions.js';
-import { VERBS } from '../src/word-arrays/verbs.js';
-import { NOUNS } from '../src/word-arrays/nouns.js';
 import { EXPRESSIONS } from '../src/word-arrays/expressions.js';
 import { Counter } from '../src/counter.js';
-import { shuffle, takeLastFromMultiple } from '../src/utils.js';
+import { shuffle } from '../src/utils.js';
 import { Bindings } from '../src/bindings.js';
 import { dynamicTemplate } from '../src/dynamic-template.js';
 
 let started = false;
 let words;
-let allWords = [...VERBS, ...NOUNS, ...ADJECTIVES_ADVERBS, ...PREPOSITIONS, ...EXPRESSIONS];
 let counter;
 let bindings;
 
@@ -19,14 +14,14 @@ const countInput = document.getElementById('count');
 document.getElementById('button').addEventListener('click', function () {
     this.innerHTML = 'Restart';
     const value = Boolean(countInput.value) && Number(countInput.value);
-    if (Boolean(value) && value <= allWords.length) {
+    if (Boolean(value) && value <= EXPRESSIONS.length) {
         start(value)
     } else {
         start();
     }
 });
 
-function start(wordsCount = allWords.length) {
+function start(wordsCount = EXPRESSIONS.length) {
     if (!started) {
         window.addEventListener('keyup', (event) => {
             if (event.code !== 'Enter') {
@@ -62,13 +57,7 @@ function start(wordsCount = allWords.length) {
     }
 
     document.getElementById('dynamic').innerHTML = dynamicTemplate;
-
-    if (wordsCount === allWords.length) {
-        words = shuffle(allWords);
-    } else {
-        words = takeLastFromMultiple(wordsCount, VERBS, NOUNS, ADJECTIVES_ADVERBS, PREPOSITIONS, EXPRESSIONS);
-    }
-
+    words = shuffle(EXPRESSIONS.slice(EXPRESSIONS.length - wordsCount));
     counter = new Counter(wordsCount);
     bindings = new Bindings([
         {
