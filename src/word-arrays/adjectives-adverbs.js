@@ -106,7 +106,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('некоторый, какой-то', 'manch'),
     new AdjectiveAdverb('сильный', 'stark'),
     new AdjectiveAdverb('единственный', 'einzig'),
-    new AdjectiveAdverb('взрослый', 'erwachsen'),
+    new AdjectiveAdverb('взрослый, выросший', 'erwachsen'),
     new AdjectiveAdverb('рад', 'froh'),
     new AdjectiveAdverb('увлекательный', 'spannend'),
     new AdjectiveAdverb('верный, явный', 'wahr'),
