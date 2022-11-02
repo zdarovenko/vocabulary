@@ -221,7 +221,7 @@ export const VERBS = [
     new Verb('засыпать', 'einschlafen', 'schläft ein', 'schlief ein', 'ist eingeschlafen'),
     new Verb('запрещать', 'verbieten', 'verbietet', 'verbot', 'hat verboten'),
     new Verb('дрожать, трястись', 'zittern', 'zittert', 'zitterte', 'hat gezittert'),
-    new Verb('покрывать, обматывать', 'überziehen', 'überzieht', 'überzog', 'hat übergezogen'),
+    new Verb('покрывать, обматывать', 'überziehen', 'zieht über', 'zog über', 'hat übergezogen'),
     new Verb('сообщать, уведомлять', 'melden', 'meldet', 'meldete', 'hat gemeldet'),
     new Verb('длиться, продолжаться', 'dauern', 'dauert', 'dauerte', 'hat gedauert'),
 
