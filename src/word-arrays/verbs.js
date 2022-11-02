@@ -200,7 +200,7 @@ export const VERBS = [
     new Verb('пробовать на вкус, иметь вкус', 'schmecken', 'schmeckt', 'schmeckte', 'hat geschmeckt'),
     new Verb('испытывать, проверять на прочность', 'erfahren', 'erfährt', 'erfuhr', 'hat erfahren'),
     new Verb('разочаровывать, разочаровываться', 'enttäuschen', 'enttäuscht', 'enttäuschte', 'hat enttäuscht'),
-    new Verb('внимательно слушать, прислушиваться, быть начеку', 'aufpassen', 'passt auf', 'passte auf', 'hat aufgepassen'),
+    new Verb('внимательно слушать, прислушиваться, быть начеку', 'aufpassen', 'passt auf', 'passte auf', 'hat aufgepasst'),
     new Verb('будить', 'wecken', 'weckt', 'weckte', 'hat geweckt'),
     new Verb('проходить мимо, миновать', 'vorbeigehen', 'geht vorbei', 'ging vorbei', 'ist vorbeigegangen'),
     new Verb('пробуждаться, просыпаться', 'aufwachen', 'wacht auf', 'wachte auf', 'ist aufgewacht'),
