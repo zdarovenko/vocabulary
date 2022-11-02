@@ -53,6 +53,10 @@ export function takeLastFromMultiple(count, ...arrays) {
                 break;
             }
 
+            if (!Boolean(array[array.length - wordIndexOffset])) {
+                continue;
+            }
+
             result.push(array[array.length - wordIndexOffset]);
             i++;
         }
