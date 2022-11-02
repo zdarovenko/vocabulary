@@ -138,10 +138,10 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('нигде', 'nirgends'),
     new AdjectiveAdverb('толстый, густой', 'dick'),
     new AdjectiveAdverb('глупый, дурной', 'dumm'),
+    new AdjectiveAdverb('едва, еле-еле', 'kaum'),
+    new AdjectiveAdverb('пожалуй', 'wohl'),
+    new AdjectiveAdverb('в пути, в дороге', 'unterwegs'),
 
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),

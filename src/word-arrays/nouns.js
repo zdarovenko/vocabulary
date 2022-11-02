@@ -433,9 +433,9 @@ export const NOUNS = [
     new Noun('новичок, начинающий', 'der', 'Anfänger', 'Anfänger'),
     new Noun('туман, мгла', 'der', 'Nebel', 'Nebel'),
     new Noun('совет', 'der', 'Rat', 'Räte'),
+    new Noun('сообщение, новость', 'die', 'Nachricht', 'Nachrichten'),
+    new Noun('нога', 'das', 'Bein', 'Beine'),
 
-    // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
-    // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
 ];

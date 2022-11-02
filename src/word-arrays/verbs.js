@@ -99,7 +99,7 @@ export const VERBS = [
     new Verb('подходить, быть в пору', 'passen', 'passt', 'passte', 'hat gepasst'),
     new Verb('изучать в ВУЗе', 'studieren', 'studiert', 'studierte', 'hat studiert'),
     new Verb('ставить, устанавливать, помещать', 'stellen', 'stellt', 'stellte', 'hat gestellt'),
-    new Verb('платить, считать', 'zahlen', 'zahlt', 'zahlte', 'hat gezahlt'),
+    new Verb('платить', 'zahlen', 'zahlt', 'zahlte', 'hat gezahlt'),
     new Verb('поздравлять', 'gratulieren', 'gratuliert', 'gratulierte', 'hat gratuliert'),
     new Verb('продавать', 'verkaufen', 'verkauft', 'verkaufte', 'hat verkauft'),
     new Verb('нуждаться', 'brauchen', 'braucht', 'brauchte', 'hat gebraucht'),
@@ -204,8 +204,8 @@ export const VERBS = [
     new Verb('будить', 'wecken', 'weckt', 'weckte', 'hat geweckt'),
     new Verb('проходить мимо, миновать', 'vorbeigehen', 'geht vorbei', 'ging vorbei', 'ist vorbeigegangen'),
     new Verb('пробуждаться, просыпаться', 'aufwachen', 'wacht auf', 'wachte auf', 'ist aufgewacht'),
+    new Verb('считать (цифры)', 'zählen', 'zählt', 'zählte', 'hat gezählt'),
 
-    // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
