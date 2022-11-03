@@ -152,7 +152,11 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('по крайней мере, хотя бы', 'wenigstens'),
     new AdjectiveAdverb('слабый', 'schwach'),
     new AdjectiveAdverb('уставший', 'müde'),
+    new AdjectiveAdverb('бодрый', 'wach'),
+    new AdjectiveAdverb('мертвый', 'tot'),
 
+    // new AdjectiveAdverb('нигде', 'nirgends'),
+    // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
