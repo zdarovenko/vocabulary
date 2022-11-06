@@ -189,7 +189,7 @@ export const VERBS = [
     new Verb('ночевать, переночевать', 'übernachten', 'übernachtet', 'übernachtete', 'hat übernachtet'),
     new Verb('доставать, вытаскивать, забирать', 'holen', 'holt', 'holte', 'hat geholt'),
     new Verb('поднимать (бокал)', 'heben', 'hebt', 'hob', 'hat gehoben'),
-    new Verb('повторять', 'wiederholen', 'holt wieder', 'holte wieder', 'hat wiederholt'),
+    new Verb('повторять', 'wiederholen', 'holt wieder', 'holte wieder', 'hat wiedergeholt'),
     new Verb('тормозить, замедлять', 'bremsen', 'bremst', 'bremste', 'hat gebremst'),
     new Verb('снимать (одежду), стягивать', 'ausziehen', 'zieht aus', 'zog aus', 'hat ausgezogen'),
     new Verb('знакомиться', 'kennenlernen', 'lernt kennen', 'lernte kennen', 'hat kennengelernt'),
