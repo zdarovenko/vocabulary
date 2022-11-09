@@ -80,7 +80,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('хрустящий', 'knackig'),
     new AdjectiveAdverb('чистый', 'sauber'),
     new AdjectiveAdverb('кислый', 'sauer'),
-    new AdjectiveAdverb('некоторый (some)', 'einige'),
+    new AdjectiveAdverb('немного (some)', 'einige'),
     new AdjectiveAdverb('пунктуальный', 'pünktlich'),
     new AdjectiveAdverb('стройный', 'schlank'),
     new AdjectiveAdverb('просто, простой', 'einfach'),
