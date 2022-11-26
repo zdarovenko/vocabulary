@@ -264,6 +264,13 @@ export const VERBS = [
     new Verb('организовывать', 'veranstalten', 'veranstaltet', 'veranstaltete', 'hat veranstaltet'),
     new Verb('определять', 'bestimmen', 'bestimmt', 'bestimmte', 'hat bestimmt'),
     new Verb('насаживать (на вертел)', 'aufspießen', 'spießt auf', 'spießte auf', 'hat aufgespießt'),
+    new Verb('освободить', 'befreien', 'befreit', 'befreite', 'hat befreit'),
+    new Verb('смекать, понимать', 'kapieren', 'kapiert', 'kapierte', 'hat kapiert'),
+    new Verb('удалить, снять, забрать', 'abnehmen', 'nimmt ab', 'nahm ab', 'hat abgenommen'),
+    new Verb('хватать', 'schnappen', 'schnappt', 'schnappte', 'ist geschnappt'),
+    new Verb('разгадывать, раскусывать, видеть насквозь', 'durchblicken', 'blickt durch', 'blickte durch', 'hat durchgeblickt'),
+    new Verb('течь, струиться', 'fließen', 'fließt', 'floss', 'ist geflossen'),
+    new Verb('пялиться, смотреть', 'gucken', 'guckt', 'guckte', 'hat geguckt'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),

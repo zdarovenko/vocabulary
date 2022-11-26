@@ -5,6 +5,7 @@ export const EXPRESSIONS = [
     new AdjectiveAdverb('"не иметь понятия"', 'kein Rat wissen'),
     new AdjectiveAdverb('снова и снова', 'immer wieder'),
     new AdjectiveAdverb('как ... так и ...', 'sowohl ... als auch ...'),
+    new AdjectiveAdverb('ходить туда-сюда', 'kreuz und quer laufen'),
 
     // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
     // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
@@ -16,5 +17,5 @@ export const EXPRESSIONS = [
     // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
     // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
     // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
 ];
+

@@ -180,9 +180,9 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('несправедливый', 'ungerecht'),
     new AdjectiveAdverb('нетерпеливый', 'ungeduldig'),
     new AdjectiveAdverb('постепенный', 'allmählich'),
+    new AdjectiveAdverb('оставшийся', 'übrig'),
+    new AdjectiveAdverb('кстати', 'übrigens'),
 
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
