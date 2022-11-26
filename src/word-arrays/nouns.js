@@ -494,7 +494,7 @@ export const NOUNS = [
     new Noun('небо', 'der', 'Himmel', 'Himmel'),
     new Noun('борьба', 'der', 'Kampf', 'Kämpfe'),
     new Noun('оружие', 'die', 'Waffe', 'Waffen'),
-    new Noun('нападение, агрессия', 'der', 'Angriff', 'Angriffe'),
+    new Noun('агрессия, нападение', 'der', 'Angriff', 'Angriffe'),
     new Noun('область, территория, район', 'das', 'Gebiet', 'Gebiete'),
     new Noun('незваный гость, захватчик', 'der', 'Eindringling', 'Eindringlinge'),
     new Noun('сопротивление, отпор', 'der', 'Widerstand', 'Widerstände'),
