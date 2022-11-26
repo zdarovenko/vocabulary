@@ -271,6 +271,7 @@ export const VERBS = [
     new Verb('разгадывать, раскусывать, видеть насквозь', 'durchblicken', 'blickt durch', 'blickte durch', 'hat durchgeblickt'),
     new Verb('течь, струиться', 'fließen', 'fließt', 'floss', 'ist geflossen'),
     new Verb('пялиться, смотреть', 'gucken', 'guckt', 'guckte', 'hat geguckt'),
+    new Verb('нападать', 'angreifen', 'greift an', 'griff an', 'hat angegriffen'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
