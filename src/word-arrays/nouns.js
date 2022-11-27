@@ -340,7 +340,7 @@ export const NOUNS = [
     new Noun('ингридиент', 'die', 'Zutat', 'Zutaten'),
     new Noun('помощница юриста', 'die', 'Anwaltsgehilfin', 'Anwaltsgehilfinnen'),
     new Noun('адвокат, юрист', 'der', 'Anwalt', 'Anwälte'),
-    new Noun('вид (из окна)', 'der', 'Blick', 'Blicke'),
+    new Noun('взгляд, вид (из окна)', 'der', 'Blick', 'Blicke'),
     new Noun('депутат', 'die der', 'Abgeordnete', 'Abgeordneten'),
     new Noun('тарелка', 'der', 'Teller', 'Teller'),
     new Noun('чашка', 'die', 'Tasse', 'Tassen'),
