@@ -203,7 +203,7 @@ export const NOUNS = [
     new Noun('прилагательное', 'das', 'Adjektiv', 'Adjektive'),
     new Noun('существительное', 'das', 'Nomen', 'Nomen'),
     new Noun('глагол', 'das', 'Verb', 'Verben'),
-    new Noun('падеж', 'die', 'Fall', 'Fälle'),
+    new Noun('падеж', 'der', 'Fall', 'Fälle'),
     new Noun('вторичный продавец', 'der', 'Trödler', 'Trödler'),
     new Noun('король', 'der', 'König', 'Könige'),
     new Noun('шляпа', 'der', 'Hut', 'Hüte'),
