@@ -524,10 +524,10 @@ export const NOUNS = [
     new Noun('счет (в банке), учетная запись', 'das', 'Konto', 'Kontos'),
     new Noun('отряд, команда', 'der', 'Trupp', 'Trupps'),
     new Noun('победа', 'der', 'Sieg', 'Siege'),
+    new Noun('вина, долг', 'die', 'Schuld', 'Schulden'),
+    new Noun('усы', 'der', 'Schnurrbart', 'Schnurrbärte'),
+    new Noun('награда', 'die', 'Belohnung', 'Belohnungen'),
 
-    // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
-    // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
-    // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
