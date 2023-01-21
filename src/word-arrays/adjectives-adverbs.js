@@ -199,6 +199,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('нескучный', 'kurzweilig'),
     new AdjectiveAdverb('безобидный', 'harmlos'),
     new AdjectiveAdverb('и без того, и так уж', 'ohnehin'),
+    new AdjectiveAdverb('странный, необычный', 'seltsam'),
 
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),
