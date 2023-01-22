@@ -299,7 +299,7 @@ export const VERBS = [
     new Verb('прекращать, заканчивать', 'aufhören', 'hört auf', 'hörte auf', 'hat aufgehört'),
     new Verb('требовать', 'verlangen', 'verlangt', 'verlangte', 'hat verlangt'),
     new Verb('отменять', 'absagen', 'sagt ab', 'sagte ab', 'hat abgesagt'),
-    new Verb('договариваться', 'vereinbaren', 'vereinbart', 'vereinbarte', 'hat vereinbart'),
+    new Verb('договариваться, согласовывать', 'vereinbaren', 'vereinbart', 'vereinbarte', 'hat vereinbart'),
     new Verb('переносить (встречу)', 'verschieben', 'verschiebt', 'verschob', 'hat verschoben'),
     new Verb('выключать', 'ausmachen', 'macht aus', 'machte aus', 'hat ausgemacht'),
     new Verb('обеспокоиться, заботиться', 'kümmern', 'kümmert', 'kümmerte', 'hat gekümmert'),
