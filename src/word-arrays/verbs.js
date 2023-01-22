@@ -272,7 +272,7 @@ export const VERBS = [
     new Verb('течь, струиться', 'fließen', 'fließt', 'floss', 'ist geflossen'),
     new Verb('пялиться, смотреть', 'gucken', 'guckt', 'guckte', 'hat geguckt'),
     new Verb('нападать', 'angreifen', 'greift an', 'griff an', 'hat angegriffen'),
-    new Verb('подметать, возвращаться', 'kehren', 'kehrt', 'kehrte', 'hat gekehrt'),
+    new Verb('подметать', 'kehren', 'kehrt', 'kehrte', 'hat gekehrt'),
     new Verb('докладывать, сообщать', 'berichten', 'berichtet', 'berichtete', 'hat berichtet'),
     new Verb('вооружаться, подготавливаться', 'wappnen', 'wappnet', 'wappnete', 'hat gewappnet'),
     new Verb('запевать, затягивать', 'anstimmen', 'stimmt an', 'stimmte an', 'hat angestimmt'),
