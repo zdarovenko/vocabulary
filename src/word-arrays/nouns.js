@@ -547,6 +547,7 @@ export const NOUNS = [
     new Noun('кондиционер', 'die', 'Klimaanlage', 'Klimaanlagen'),
     new Noun('будильник', 'der', 'Wecker', 'Wecker'),
     new Noun('ответ (на просьбу)', 'der', 'Bescheid', 'Bescheide'),
+    new Noun('водительские права', 'der', 'Führerschein', 'Führerscheine'),
 
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
