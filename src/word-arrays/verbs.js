@@ -300,7 +300,7 @@ export const VERBS = [
     new Verb('требовать', 'verlangen', 'verlangt', 'verlangte', 'hat verlangt'),
     new Verb('отменять', 'absagen', 'sagt ab', 'sagte ab', 'hat abgesagt'),
     new Verb('договариваться', 'vereinbaren', 'vereinbart', 'vereinbarte', 'hat vereinbart'),
-    new Verb('переносить (встречу)', 'verschieben', 'verschiebt', 'verschoben', 'hat verschoben'),
+    new Verb('переносить (встречу)', 'verschieben', 'verschiebt', 'verschob', 'hat verschoben'),
     new Verb('выключать', 'ausmachen', 'macht aus', 'machte aus', 'hat ausgemacht'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
