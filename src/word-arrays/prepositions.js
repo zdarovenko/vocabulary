@@ -2,7 +2,7 @@ import { Preposition } from '../word.js';
 
 export const PREPOSITIONS = [
     new Preposition('с, с помощью', 'mit', 'D'),
-    new Preposition('куда-то, к чему-то (идти)', 'nach', 'D'),
+    new Preposition('куда-то (в другой город)', 'nach', 'D'),
     new Preposition('до', 'bis', 'A'),
     new Preposition('через, сквозь', 'durch', 'A'),
     new Preposition('вдоль', 'entlang', 'A'),
