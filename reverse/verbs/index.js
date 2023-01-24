@@ -60,7 +60,7 @@ function start(wordsCount = VERBS.length) {
                 bindings.refresh();
             } else {
                 counter.countError();
-                alert(`Неправильно! Правильный вариант: ${ words[counter.wordIndex].correctWord }`);
+                alert(`Неправильно! Правильный вариант: ${ words[counter.wordIndex].russian }`);
                 bindings.refresh(['error']);
             }
         });
