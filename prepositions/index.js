@@ -40,7 +40,6 @@ function start(wordsCount = PREPOSITIONS.length) {
                 counter.increase();
 
                 if (counter.full) {
-                    console.log('counter', counter);
                     alert('Все!');
 
                     return;

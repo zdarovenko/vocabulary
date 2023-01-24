@@ -66,3 +66,28 @@ export function takeLastFromMultiple(count, ...arrays) {
 
     return result;
 }
+
+function deleteWordFromArray(array, word) {
+    const index = array.indexOf(word);
+    return [...array.slice(0, index), ...array.slice(index + 1)]
+}
+
+export function takeFourWords(word, words, counter, typedWords = []) {
+    let wordsWithoutRight
+
+    if (Boolean(typedWords.length)) {
+        wordsWithoutRight = deleteWordFromArray(typedWords, word);
+    } else {
+        wordsWithoutRight = deleteWordFromArray(words, word);
+    }
+
+
+    let result = [
+        word.russian,
+        wordsWithoutRight[Math.floor(Math.random() * wordsWithoutRight.length)].russian,
+        wordsWithoutRight[Math.floor(Math.random() * wordsWithoutRight.length)].russian,
+        wordsWithoutRight[Math.floor(Math.random() * wordsWithoutRight.length)].russian,
+    ];
+
+    return shuffle(result);
+}

@@ -182,7 +182,10 @@ export const PREPOSITION_CONFIG = [
                     },
                     {
                         tagName: 'select',
-                        attributes: [{ name: 'id', value: 'declinationCase' }, { name: 'oninput', value: 'this.blur()' }, { name: 'null-text', value: 'case' }],
+                        attributes: [{ name: 'id', value: 'declinationCase' }, {
+                            name: 'oninput',
+                            value: 'this.blur()'
+                        }, { name: 'null-text', value: 'case' }],
                         children: [
                             {
                                 tagName: 'option',
@@ -221,21 +224,20 @@ export const ADJECTIVE_ADVERB_CONFIG = [
     {
         tagName: 'div',
         className: 'flex flex-row flex-wrap',
-        children: [
-            {
-                tagName: 'div',
-                className: 'flex flex-column',
-                children: [
-                    {
-                        tagName: 'span',
-                        content: 'Deutsch'
-                    },
-                    {
-                        tagName: 'input',
-                        attributes: [{ name: 'id', value: 'german' }]
-                    }
-                ]
-            },
+        children: [{
+            tagName: 'div',
+            className: 'flex flex-column',
+            children: [
+                {
+                    tagName: 'span',
+                    content: 'Deutsch'
+                },
+                {
+                    tagName: 'input',
+                    attributes: [{ name: 'id', value: 'german' }]
+                }
+            ]
+        }
         ]
     }
 ];

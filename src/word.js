@@ -21,6 +21,10 @@ class Word {
 	check() {
 		return this.wordForm.valid();
 	}
+
+	checkReverse(value) {
+		return this.russian === value;
+	}
 }
 
 export class Verb extends Word {

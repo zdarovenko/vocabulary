@@ -25,6 +25,12 @@ export class Bindings {
                     });
 
                     break;
+                case 'value':
+                    targets.forEach((element) => {
+                        element.setAttribute('value', item.value());
+                    })
+
+                    break;
                 case 'deep':
                     targets.forEach((element) => {
                         element.childNodes.forEach((el) => {
