@@ -422,7 +422,6 @@ export const NOUNS = [
     new Noun('ледник', 'der', 'Gletscher', 'Gletscher'),
     new Noun('кусок, штука', 'das', 'Stück', 'Stücke'),
     new Noun('флаг, знамя', 'die', 'Fahne', 'Fahnen'),
-    new Noun('уведомление, информация', 'der', 'Bescheid', 'Bescheide'),
     new Noun('мусор', 'der', 'Müll', null, true),
     new Noun('вещь, предмет, дело', 'die', 'Sache', 'Sachen'),
     new Noun('гость, гостья', 'der', 'Gast', 'Gäste'),
