@@ -185,7 +185,6 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('героический', 'heldenhaft'),
     new AdjectiveAdverb('целый, невредимый', 'heil'),
     new AdjectiveAdverb('тем временем', 'unterdessen'),
-    new AdjectiveAdverb('странный', 'seltsam'),
     new AdjectiveAdverb('разумный, рассудительный', 'vernünftig'),
     new AdjectiveAdverb('правый, верный', 'recht'),
     new AdjectiveAdverb('нужный, необходимый', 'nötig'),
