@@ -547,7 +547,7 @@ export const NOUNS = [
     new Noun('будильник', 'der', 'Wecker', 'Wecker'),
     new Noun('ответ (на просьбу)', 'der', 'Bescheid', 'Bescheide'),
     new Noun('водительские права', 'der', 'Führerschein', 'Führerscheine'),
-    new Noun('рука', 'der', 'Arm', 'Arme'),
+    new Noun('рука (целиком)', 'der', 'Arm', 'Arme'),
     new Noun('аптека', 'die', 'Apotheke', 'Apotheken'),
     new Noun('медикамент, лекарственное средство', 'das', 'Medikament', 'Medikamente'),
     new Noun('рецепт (от врача)', 'das', 'Rezept', 'Rezepte'),
