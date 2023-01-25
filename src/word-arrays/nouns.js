@@ -73,7 +73,7 @@ export const NOUNS = [
     new Noun('родители', 'die', null, 'Eltern', false, true),
     new Noun('семейное положение', 'der', 'Familienstand', null, true),
     new Noun('возраст', 'das', 'Alter', null, true),
-    new Noun('место происхождения', 'der', 'Herkunft', 'Herkünfte'),
+    new Noun('место происхождения', 'die', 'Herkunft', 'Herkünfte'),
     new Noun('краткий профиль, личное дело', 'der', 'Steckbrief', 'Steckbriefe'),
     new Noun('медсестра (современно)', 'die', 'Krankenpflegerin', 'Krankenpflegerinnen'),
     new Noun('медбрат', 'der', 'Krankenpfleger', 'Krankenpfleger'),
