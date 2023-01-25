@@ -304,6 +304,7 @@ export const VERBS = [
     new Verb('выключать', 'ausmachen', 'macht aus', 'machte aus', 'hat ausgemacht'),
     new Verb('обеспокоиться, заботиться', 'sich kümmern', 'kümmert', 'kümmerte', 'hat gekümmert'),
     new Verb('ходить под парусом, путешествовать', 'segeln', 'segelt', 'segelte', 'ist gesegelt'),
+    new Verb('кашлять', 'husten', 'hustet', 'hustete', 'hat gehustet'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
