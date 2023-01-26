@@ -562,6 +562,7 @@ export const NOUNS = [
     new Noun('шея, горло', 'der', 'Hals', 'Hälse'),
     new Noun('грудь, грудная клетка', 'die', 'Brust', 'Brüste'),
     new Noun('живот', 'der', 'Bauch', 'Bäuche'),
+    new Noun('спина, хребет', 'der', 'Rücken', 'Rücken'),
 
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
