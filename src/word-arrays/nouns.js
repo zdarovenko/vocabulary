@@ -559,6 +559,9 @@ export const NOUNS = [
     new Noun('мазь', 'die', 'Salbe', 'Salben'),
     new Noun('пластырь', 'das', 'Pflaster', 'Pflaster'),
     new Noun('результат, итог', 'das', 'Ergebnis', 'Ergebnisse'),
+    new Noun('шея, горло', 'der', 'Hals', 'Hälse'),
+    new Noun('грудь, грудная клетка', 'die', 'Brust', 'Brüste'),
+    new Noun('живот', 'der', 'Bauch', 'Bäuche'),
 
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
