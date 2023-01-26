@@ -6,6 +6,11 @@ input[type="checkbox"] {
 	width: 30px;
 }
 
+input[type="radio"] {
+	width: 24px;
+	height: 24px;
+}
+
 .flex {
 	display: flex;
 }
