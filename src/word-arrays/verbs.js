@@ -215,7 +215,7 @@ export const VERBS = [
     new Verb('двигаться, шевелиться', 'sich bewegen', 'bewegt', 'bewegte', 'hat bewegt'),
     new Verb('двигать, шевелить', 'bewegen', 'bewegt', 'bewegte', 'hat bewegt'),
     new Verb('обследовать, исследовать', 'untersuchen', 'untersucht', 'untersuchte', 'hat untersucht'),
-    new Verb('поддерживать, развлекать', 'unterhalten', 'hält unter', 'hielt unter', 'hat untergehalten'),
+    new Verb('поддерживать, развлекать', 'unterhalten', 'unterhält', 'unterhielt', 'hat unterhalten'),
     new Verb('осматриваться, оглядываться', 'umsehen', 'sieht um', 'sah um', 'hat umgesehen'),
     new Verb('ранить, повреждать', 'verletzen', 'verletzt', 'verletzte', 'hat verletzt'),
     new Verb('засыпать', 'einschlafen', 'schläft ein', 'schlief ein', 'ist eingeschlafen'),
@@ -308,6 +308,7 @@ export const VERBS = [
     new Verb('жаловаться', 'sich beschweren', 'beschwert', 'beschwerte', 'hat beschwert'),
     new Verb('перевести (деньги)', 'überweisen', 'überweist', 'überwies', 'hat überwiesen'),
     new Verb('сопровождать, провожать', 'begleiten', 'begleitet', 'begleitete', 'hat begleitet'),
+    new Verb('предсказывать, прогнозировать', 'vorhersagen', 'sagt vorher', 'sagte vorher', 'hat vorhergesagt'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
