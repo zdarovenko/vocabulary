@@ -568,6 +568,8 @@ export const NOUNS = [
     new Noun('реальность, действительность', 'die', 'Wirklichkeit', 'Wirklichkeiten'),
     new Noun('борода', 'der', 'Bart', 'Bärte'),
     new Noun('кудри', 'die', 'Locke', 'Locken'),
+    new Noun('знаменитость (мужской род)', 'der', 'Promi', 'Promis'),
+    new Noun('знаменитость (женский род)', 'der', 'Promi', 'Promis'),
 
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
