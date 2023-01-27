@@ -567,6 +567,7 @@ export const NOUNS = [
     new Noun('лекарственная трава', 'das', 'Heilkraut', 'Heilkräuter'),
     new Noun('реальность, действительность', 'die', 'Wirklichkeit', 'Wirklichkeiten'),
     new Noun('борода', 'der', 'Bart', 'Bärte'),
+    new Noun('кудри', 'die', 'Locke', 'Locken'),
 
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
