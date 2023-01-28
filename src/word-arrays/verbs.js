@@ -309,6 +309,9 @@ export const VERBS = [
     new Verb('перевести (деньги)', 'überweisen', 'überweist', 'überwies', 'hat überwiesen'),
     new Verb('сопровождать, провожать', 'begleiten', 'begleitet', 'begleitete', 'hat begleitet'),
     new Verb('предсказывать, прогнозировать', 'vorhersagen', 'sagt vorher', 'sagte vorher', 'hat vorhergesagt'),
+    new Verb('гладить (утюгом)', 'bügeln', 'bügelt', 'bügelte', 'hat gebügelt'),
+    new Verb('пылесосить', 'staubsaugen', 'staubsaugt', 'staubsaugte', 'hat gestaubsaugt'),
+    new Verb('сосать', 'saugen', 'saugt', 'saugte', 'hat gesaugt'),
 
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),
     // new Verb('тонуть', 'ertrinken', 'ertrinkt', 'ertrank', 'ist ertrunken'),

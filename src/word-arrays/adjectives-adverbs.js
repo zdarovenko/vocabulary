@@ -202,6 +202,8 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('больной, заболевший', 'krank'),
     new AdjectiveAdverb('больно', 'weh'),
     new AdjectiveAdverb('здоровый (не больной)', 'gesund'),
+    new AdjectiveAdverb('тухлый, ленивый', 'faul'),
+    new AdjectiveAdverb('неловко', 'peinlich'),
 
     // new AdjectiveAdverb('нигде', 'nirgends'),
     // new AdjectiveAdverb('нигде', 'nirgends'),

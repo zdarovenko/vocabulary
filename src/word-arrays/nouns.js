@@ -571,6 +571,8 @@ export const NOUNS = [
     new Noun('знаменитость (мужской род)', 'der', 'Promi', 'Promis'),
     new Noun('знаменитость (женский род)', 'der', 'Promi', 'Promis'),
     new Noun('разница, различие', 'der', 'Unterschied', 'Unterschiede'),
+    new Noun('пыль, прах', 'der', 'Staub', 'Stäube'),
+    new Noun('запись (в журнале)', 'der', 'Eingrag', 'Einträge'),
 
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
     // new Noun('кафе', 'das', 'Cafe', 'Cafes'),
