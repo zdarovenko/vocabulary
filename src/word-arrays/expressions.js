@@ -19,15 +19,5 @@ export const EXPRESSIONS = [
     new AdjectiveAdverb('прибирать комнату', 'Zimmer aufräumen'),
     new AdjectiveAdverb('заправлять постель', 'Bett machen'),
 
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
-    // new AdjectiveAdverb('"развесить уши", прислушаться', 'große Ohren bekommen'),
 ];
 

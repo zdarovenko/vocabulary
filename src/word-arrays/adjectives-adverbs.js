@@ -204,15 +204,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('здоровый (не больной)', 'gesund'),
     new AdjectiveAdverb('тухлый, ленивый', 'faul'),
     new AdjectiveAdverb('неловко', 'peinlich'),
-
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
-    // new AdjectiveAdverb('нигде', 'nirgends'),
+    new AdjectiveAdverb('грязный', 'schmutzig'),
+    new AdjectiveAdverb('ранее (как предлог)', 'vorher'),
+    new AdjectiveAdverb('только, голый', 'bloß'),
 ];
