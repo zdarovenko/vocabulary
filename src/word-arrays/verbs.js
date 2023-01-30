@@ -291,7 +291,7 @@ export const VERBS = [
     new Verb('принять меры', 'vorgehen', 'geht vor', 'ging vor', 'ist vorgegangen'),
     new Verb('обнаруживать, догадываться', 'rausfinden', 'findet raus', 'fand raus', 'hat rausgefunden'),
     new Verb('решать', 'entscheiden', 'entscheidet', 'entschied', 'hat entschieden'),
-    new Verb('решать, допускать', 'gestatten', 'gestattet', 'gestattete', 'hat gestattet'),
+    new Verb('допускать, решать', 'gestatten', 'gestattet', 'gestattete', 'hat gestattet'),
     new Verb('направляться, отправляться', 'begeben', 'begibt', 'begab', 'hat begeben'),
     new Verb('веселиться, развлекать', 'amüsieren', 'amüsiert', 'amüsierte', 'hat amüsiert'),
     new Verb('скрываться, убегать', 'entkommen', 'entkommt', 'entkam', 'ist entkommen'),
