@@ -314,7 +314,7 @@ export const VERBS = [
     new Verb('сосать', 'saugen', 'saugt', 'saugte', 'hat gesaugt'),
     new Verb('ненавидеть, не любить', 'hassen', 'hasst', 'hasste', 'hat gehasst'),
     new Verb('открывать (более часто)', 'aufmachen', 'macht auf', 'machte auf', 'hat aufgemacht'),
-    new Verb('закрывать', 'zumachen', 'macht zu', 'machte zu', 'hat zugemacht'),
+    new Verb('закрывать (окно)', 'zumachen', 'macht zu', 'machte zu', 'hat zugemacht'),
     new Verb('разрешать, позволять', 'erlauben', 'erlaubt', 'erlaubte', 'hat erlaubt'),
     new Verb('купаться, принимать ванну', 'baden', 'badet', 'badete', 'hat gebadet'),
     new Verb('рыбачить', 'angeln', 'angelt', 'angelte', 'hat geangelt'),
