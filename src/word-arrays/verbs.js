@@ -318,5 +318,7 @@ export const VERBS = [
     new Verb('разрешать, позволять', 'erlauben', 'erlaubt', 'erlaubte', 'hat erlaubt'),
     new Verb('купаться, принимать ванну', 'baden', 'badet', 'badete', 'hat gebadet'),
     new Verb('рыбачить', 'angeln', 'angelt', 'angelte', 'hat geangelt'),
+    new Verb('сигналить', 'hupen', 'hupt', 'hupte', 'hat gehupt'),
+    new Verb('двигать, надвигать', 'schieben', 'schiebt', 'schob', 'hat geschoben'),
 
 ];
