@@ -577,5 +577,16 @@ export const NOUNS = [
     new Noun('посуда', 'das', 'Geschirr', 'Geschirre'),
     new Noun('письмо', 'der', 'Brief', 'Briefe'),
     new Noun('размер, величина', 'die', 'Größe', 'Größen'),
-    new Noun('ремень, пояс, ремень безопасности', 'der', 'Gurt', 'Gurten'),
+    new Noun('пояс, ремень безопасности', 'der', 'Gurt', 'Gurten'),
+    new Noun('рубашка', 'das', 'Hemd', 'Hemden'),
+    new Noun('блузка', 'die', 'Bluse', 'Blusen'),
+    new Noun('колготки', 'die', 'Strumpfhose', 'Strumpfhosen'),
+    new Noun('шапка', 'die', 'Mütze', 'Mützen'),
+    new Noun('платье', 'das', 'Kleid', 'Kleider'),
+    new Noun('куртка', 'die', 'Jacke', 'Jacken'),
+    new Noun('свитер, кофта', 'der', 'Pullover', 'Pullover'),
+    new Noun('юбка, пиджак', 'der', 'Rock', 'Röcke'),
+    new Noun('ремень', 'der', 'Gürtel', 'Gürtel'),
+    new Noun('чулок', 'der', 'Strumpf', 'Strümpfe'),
+
 ];

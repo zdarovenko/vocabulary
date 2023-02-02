@@ -207,8 +207,5 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('грязный', 'schmutzig'),
     new AdjectiveAdverb('ранее (как предлог)', 'vorher'),
     new AdjectiveAdverb('только, голый', 'bloß'),
+
 ];
-
-// enn / als, bevor / ehe, bis, weil / da, damit, dass, so dass, solange, indem, wenn / falls, nachdem, während, obwohl, seit / seitdem, sooft, wohingegen
-
-// allerdings, also, an, andererseits, anschließend, außerdem, beziehungsweise, dabei, dadurch, dafür, dagegen, damit, danach, daneben, dann, darauf, darum, darüber, darunter, dazwischen, davor, dazu, dennoch, deshalb, deswegen, einerseits, entweder, ferner, folglich, genauso, immerhin, inzwischen, jedoch, schließlich, seitdem, somit, sonst, später, trotzdem, vorher, zudem, zuerst, zuvor, weder... noch, zwar
