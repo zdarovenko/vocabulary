@@ -207,5 +207,9 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('грязный', 'schmutzig'),
     new AdjectiveAdverb('ранее (как предлог)', 'vorher'),
     new AdjectiveAdverb('только, голый', 'bloß'),
+    new AdjectiveAdverb('бежевый', 'beige'),
+    new AdjectiveAdverb('лиловый', 'lila'),
+    new AdjectiveAdverb('розовый', 'rosa'),
+    new AdjectiveAdverb('золотой', 'golden'),
 
 ];
