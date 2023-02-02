@@ -19,5 +19,10 @@ export const EXPRESSIONS = [
     new AdjectiveAdverb('прибирать комнату', 'Zimmer aufräumen'),
     new AdjectiveAdverb('заправлять постель', 'Bett machen'),
 
+    new AdjectiveAdverb('не только ... но и ...', 'nicht nur ... sondern auch ...'),
+    new AdjectiveAdverb('хотя ..., ...', 'zwar ..., aber ...'),
+    new AdjectiveAdverb('либо ..., либо ...', 'entweder ... oder ...'),
+    new AdjectiveAdverb('ни ..., ни ...', 'weder ... noch ...'),
+
 ];
 
