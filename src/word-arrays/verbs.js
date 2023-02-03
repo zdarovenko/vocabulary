@@ -320,5 +320,6 @@ export const VERBS = [
     new Verb('рыбачить', 'angeln', 'angelt', 'angelte', 'hat geangelt'),
     new Verb('сигналить', 'hupen', 'hupt', 'hupte', 'hat gehupt'),
     new Verb('двигать, надвигать', 'schieben', 'schiebt', 'schob', 'hat geschoben'),
+    new Verb('рекомендовать, советовать', 'empfehlen', 'empfielt', 'empfahl', 'hat empfohlen'),
 
 ];
