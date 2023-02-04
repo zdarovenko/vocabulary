@@ -66,7 +66,7 @@ function start(wordsCount = allWords.length) {
     if (wordsCount === allWords.length) {
         words = shuffle(allWords);
     } else {
-        words = takeLastFromMultiple(wordsCount, VERBS, NOUNS, ADJECTIVES_ADVERBS, PREPOSITIONS, EXPRESSIONS);
+        words = shuffle(takeLastFromMultiple(wordsCount, VERBS, NOUNS, ADJECTIVES_ADVERBS, PREPOSITIONS, EXPRESSIONS));
     }
 
     counter = new Counter(wordsCount);
