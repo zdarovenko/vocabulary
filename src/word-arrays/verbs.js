@@ -279,7 +279,7 @@ export const VERBS = [
     new Verb('одобрять, приветствовать', 'zustimmen', 'stimmt zu', 'stimmte zu', 'hat zugestimmt'),
     new Verb('решаться, осмеливаться', 'trauen', 'traut', 'traute', 'hat getraut'),
     new Verb('кричать', 'schreien', 'schreit', 'schrie', 'hat geschrien'),
-    new Verb('создавать, творить', 'schaffen', 'schafft', 'schuf', 'hat geschaffen'),
+    new Verb('справляться, создавать, творить', 'schaffen', 'schafft', 'schuf', 'hat geschaffen'),
     new Verb('протягивать, хватать', 'reichen', 'reicht', 'reichte', 'hat gereicht'),
     new Verb('мчаться, бежать', 'rennen', 'rennt', 'rannte', 'hat gerannt'),
     new Verb('пытать', 'foltern', 'foltert', 'folterte', 'hat gefoltert'),
