@@ -321,5 +321,7 @@ export const VERBS = [
     new Verb('сигналить', 'hupen', 'hupt', 'hupte', 'hat gehupt'),
     new Verb('двигать, надвигать', 'schieben', 'schiebt', 'schob', 'hat geschoben'),
     new Verb('рекомендовать, советовать', 'empfehlen', 'empfielt', 'empfahl', 'hat empfohlen'),
+    new Verb('греметь, громыхать', 'donnern', 'donnert', 'donnerte', 'hat gedonnert'),
+    new Verb('сверкать, искриться', 'blitzen', 'blitzt', 'blitzte', 'hat geblitzt'),
 
 ];
