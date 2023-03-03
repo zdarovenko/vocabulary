@@ -214,5 +214,10 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('смешной, веселый', 'lustig'),
     new AdjectiveAdverb('туманный', 'neblig'),
     new AdjectiveAdverb('довольный', 'zufrieden'),
+    new AdjectiveAdverb('позади', 'hinterher'),
+    new AdjectiveAdverb('здешний', 'hiesig'),
+    new AdjectiveAdverb('тамошний', 'dortig'),
+    new AdjectiveAdverb('в то время, в это время', 'damals'),
+    new AdjectiveAdverb('надменный', 'arrogant'),
 
 ];

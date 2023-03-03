@@ -601,5 +601,7 @@ export const NOUNS = [
     new Noun('карнавал', 'der', 'Karneval', 'Karnevale'),
     new Noun('экзамен', 'die', 'Prüfung', 'Prüfungen'),
     new Noun('родственник', 'die der', 'Verwandte', 'Verwandten'),
+    new Noun('сомнение', 'der', 'Zweifel', 'Zweifel'),
+    new Noun('факт', 'die', 'Tatsache', 'Tatsachen'),
 
 ];

@@ -323,5 +323,13 @@ export const VERBS = [
     new Verb('рекомендовать, советовать', 'empfehlen', 'empfielt', 'empfahl', 'hat empfohlen'),
     new Verb('греметь, громыхать', 'donnern', 'donnert', 'donnerte', 'hat gedonnert'),
     new Verb('сверкать, искриться', 'blitzen', 'blitzt', 'blitzte', 'hat geblitzt'),
+    new Verb('устоять, выстаивать', 'standhalten', 'hält stand', 'hielt stand', 'hat standgehalten'),
+    new Verb('оценивать', 'bewerten', 'bewertet', 'bewertete', 'hat bewertet'),
+    new Verb('взвешивать', 'wiegen', 'wiegt', 'wog', 'hat gewogen'),
+    new Verb('провалить', 'durchfallen', 'fällt durch', 'fiel durch', 'ist durchgefallen'),
+    new Verb('насыщать', 'sättigen', 'sättigt', 'sättigte', 'hat gesättigt'),
+    new Verb('ругаться, браниться', 'schimpfen', 'schimpft', 'schimpfte', 'hat geschimpft'),
+    new Verb('кусать', 'beißen', 'beißt', 'biss', 'hat gebissen'),
+    new Verb('действовать, подействовать', 'wirken', 'wirkt', 'wirkte', 'hat gewirkt'),
 
 ];
