@@ -214,7 +214,7 @@ export const NOUNS = [
     new Noun('вход (плата за вход)', 'der', 'Eintritt', null, true),
     new Noun('комплимент', 'das', 'Kompliment', 'Komplimente'),
     new Noun('шахматы', 'der', 'Schach', 'Schachs'),
-    new Noun('концерт', 'das', 'Konzert', 'Konzerten'),
+    new Noun('концерт', 'das', 'Konzert', 'Konzerte'),
     new Noun('хобби', 'das', 'Hobby', 'Hobbys'),
     new Noun('природа', 'die', 'Natur', 'Naturen'),
     new Noun('полет', 'der', 'Flug', 'Flüge'),
