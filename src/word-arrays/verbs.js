@@ -276,7 +276,7 @@ export const VERBS = [
     new Verb('докладывать, сообщать', 'berichten', 'berichtet', 'berichtete', 'hat berichtet'),
     new Verb('вооружаться, подготавливаться', 'wappnen', 'wappnet', 'wappnete', 'hat gewappnet'),
     new Verb('запевать, затягивать', 'anstimmen', 'stimmt an', 'stimmte an', 'hat angestimmt'),
-    new Verb('одобрять, приветствовать', 'zustimmen', 'stimmt zu', 'stimmte zu', 'hat zugestimmt'),
+    new Verb('соглашаться, одобрять, приветствовать', 'zustimmen', 'stimmt zu', 'stimmte zu', 'hat zugestimmt'),
     new Verb('решаться, осмеливаться', 'trauen', 'traut', 'traute', 'hat getraut'),
     new Verb('кричать', 'schreien', 'schreit', 'schrie', 'hat geschrien'),
     new Verb('справляться, создавать, творить', 'schaffen', 'schafft', 'schuf', 'hat geschaffen'),
