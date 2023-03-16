@@ -604,5 +604,6 @@ export const NOUNS = [
     new Noun('сомнение', 'der', 'Zweifel', 'Zweifel'),
     new Noun('факт', 'die', 'Tatsache', 'Tatsachen'),
     new Noun('область, зона', 'der', 'Bereich', 'Bereiche'),
+    new Noun('прибор, устройство', 'das', 'Gerät', 'Geräte'),
 
 ];
