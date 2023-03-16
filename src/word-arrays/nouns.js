@@ -603,5 +603,6 @@ export const NOUNS = [
     new Noun('родственник', 'die der', 'Verwandte', 'Verwandten'),
     new Noun('сомнение', 'der', 'Zweifel', 'Zweifel'),
     new Noun('факт', 'die', 'Tatsache', 'Tatsachen'),
+    new Noun('область, зона', 'der', 'Bereich', 'Bereiche'),
 
 ];
