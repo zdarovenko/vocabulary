@@ -331,5 +331,7 @@ export const VERBS = [
     new Verb('ругаться, браниться', 'schimpfen', 'schimpft', 'schimpfte', 'hat geschimpft'),
     new Verb('кусать', 'beißen', 'beißt', 'biss', 'hat gebissen'),
     new Verb('действовать, подействовать', 'wirken', 'wirkt', 'wirkte', 'hat gewirkt'),
+    new Verb('заниматься, быть занятым', 'sich beschäftigen', 'beschäftigt', 'beschäftigte', 'hat beschäftigt'),
+    new Verb('решиться', 'sich entschließen', 'entschließt', 'entschloss', 'hat entschlossen'),
 
 ];

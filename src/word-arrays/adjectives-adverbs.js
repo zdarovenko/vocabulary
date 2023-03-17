@@ -219,5 +219,16 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('тамошний', 'dortig'),
     new AdjectiveAdverb('в то время, в это время', 'damals'),
     new AdjectiveAdverb('надменный', 'arrogant'),
+    new AdjectiveAdverb('внимательный', 'aufmerksam'),
+    new AdjectiveAdverb('серьезный', 'ernst'),
+    new AdjectiveAdverb('честный', 'fair'),
+    new AdjectiveAdverb('нахальный, дерзкий', 'frech'),
+    new AdjectiveAdverb('щедрый', 'großzügig'),
+    new AdjectiveAdverb('придирчивый', 'kritisch'),
+    new AdjectiveAdverb('жизнерадостный', 'lebendig'),
+    new AdjectiveAdverb('аккуратный', 'ordentlich'),
+    new AdjectiveAdverb('экономный', 'sparsam'),
+    new AdjectiveAdverb('верный (друг)', 'treu'),
+    new AdjectiveAdverb('незначительный, небольшой', 'gering'),
 
 ];

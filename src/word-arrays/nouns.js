@@ -605,5 +605,12 @@ export const NOUNS = [
     new Noun('факт', 'die', 'Tatsache', 'Tatsachen'),
     new Noun('область, зона', 'der', 'Bereich', 'Bereiche'),
     new Noun('прибор, устройство', 'das', 'Gerät', 'Geräte'),
+    new Noun('стажер, практикант', 'die der', 'Auszubildende', 'Auszubildenden'),
+    new Noun('воспитатель', 'der', 'Erzieher', 'Erzieher'),
+    new Noun('зарплата', 'das', 'Gehalt', 'Gehälter'),
+    new Noun('достижение', 'die', 'Leistung', 'Leistungen'),
+    new Noun('ответственность', 'die', 'Verantwortung', null, true),
+    new Noun('повод, возможность', 'die', 'Gelegenheit', 'Gelegenheiten'),
+    new Noun('шум', 'die', 'Lärm', null, true),
 
 ];
