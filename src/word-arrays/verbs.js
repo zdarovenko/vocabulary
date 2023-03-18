@@ -333,5 +333,6 @@ export const VERBS = [
     new Verb('действовать, подействовать', 'wirken', 'wirkt', 'wirkte', 'hat gewirkt'),
     new Verb('заниматься, быть занятым', 'sich beschäftigen', 'beschäftigt', 'beschäftigte', 'hat beschäftigt'),
     new Verb('решиться', 'sich entschließen', 'entschließt', 'entschloss', 'hat entschlossen'),
+    new Verb('править', 'herrschen', 'herrscht', 'herrschte', 'hat geherrscht'),
 
 ];

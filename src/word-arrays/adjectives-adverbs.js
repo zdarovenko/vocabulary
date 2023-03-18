@@ -230,5 +230,10 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('экономный', 'sparsam'),
     new AdjectiveAdverb('верный (друг)', 'treu'),
     new AdjectiveAdverb('незначительный, небольшой', 'gering'),
+    new AdjectiveAdverb('удаленный', 'entfernt'),
+    new AdjectiveAdverb('тесный', 'eng'),
+    new AdjectiveAdverb('однако', 'allerdings'),
+    new AdjectiveAdverb('плотный', 'dicht'),
+    new AdjectiveAdverb('недавно', 'kürzlich'),
 
 ];
