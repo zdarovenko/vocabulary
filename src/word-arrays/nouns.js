@@ -627,4 +627,5 @@ export const NOUNS = [
     new Noun('население', 'die', 'Bevölkerung', null, true),
     new Noun('государство', 'der', 'Staat', 'Staaten'),
     new Noun('смерть', 'der', 'Tod', 'Tode'),
+    new Noun('встреча', 'die', 'Begegnung', 'Begegnungen'),
 ];
