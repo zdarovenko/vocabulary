@@ -628,4 +628,10 @@ export const NOUNS = [
     new Noun('государство', 'der', 'Staat', 'Staaten'),
     new Noun('смерть', 'der', 'Tod', 'Tode'),
     new Noun('встреча', 'die', 'Begegnung', 'Begegnungen'),
+    new Noun('пересадка (самолет)', 'der', 'Anschluss', 'Anschlüsse'),
+    new Noun('прививка', 'die', 'Impfung', 'Impfungen'),
+    new Noun('таможня', 'der', 'Zoll', 'Zölle'),
+    new Noun('знание', 'die', 'Kenntnis', 'Kenntnisse'),
+    new Noun('деятельность, функция', 'die', 'Tätigkeit', 'Tätigkeiten'),
+    new Noun('участие, заявка на участие', 'die', 'Bewerbung', 'Bewerbungen'),
 ];
