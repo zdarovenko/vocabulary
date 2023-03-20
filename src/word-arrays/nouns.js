@@ -611,7 +611,7 @@ export const NOUNS = [
     new Noun('достижение', 'die', 'Leistung', 'Leistungen'),
     new Noun('ответственность', 'die', 'Verantwortung', null, true),
     new Noun('повод, возможность', 'die', 'Gelegenheit', 'Gelegenheiten'),
-    new Noun('шум', 'die', 'Lärm', null, true),
+    new Noun('шум', 'der', 'Lärm', null, true),
     new Noun('тема', 'das', 'Thema', 'Themen'),
     new Noun('житель', 'der', 'Bewohner', 'Bewohner'),
     new Noun('ершик', 'die', 'Bürste', 'Bürsten'),
