@@ -634,4 +634,5 @@ export const NOUNS = [
     new Noun('знание', 'die', 'Kenntnis', 'Kenntnisse'),
     new Noun('деятельность, функция', 'die', 'Tätigkeit', 'Tätigkeiten'),
     new Noun('участие, заявка на участие', 'die', 'Bewerbung', 'Bewerbungen'),
+    new Noun('вид, род, тип', 'die', 'Art', 'Arten'),
 ];
