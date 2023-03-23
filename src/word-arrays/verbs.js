@@ -337,5 +337,9 @@ export const VERBS = [
     new Verb('намереваться, собираться', 'vorhaben', 'hat vor', 'hatte vor', 'hat vorgehabt'),
     new Verb('мешать (чему-то)', 'stören', 'stört', 'störte', 'hat gestört'),
     new Verb('подать заявку', 'bewerben', 'bewirbt', 'bewarb', 'hat beworben'),
+    new Verb('предлагать (синоним vorschlagen)', 'auffordern', 'fordert auf', 'forderte auf', 'hat aufgefordert'),
+    new Verb('обслуживать', 'bedienen', 'bedient', 'bediente', 'hat bedient'),
+    new Verb('оставлять', 'behalten', 'behält', 'behielt', 'hat behalten'),
+    new Verb('получать (синоним)', 'erhalten', 'erhält', 'erhielt', 'hat erhalten'),
 
 ];
