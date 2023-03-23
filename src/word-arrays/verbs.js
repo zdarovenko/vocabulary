@@ -341,5 +341,13 @@ export const VERBS = [
     new Verb('обслуживать', 'bedienen', 'bedient', 'bediente', 'hat bedient'),
     new Verb('оставлять', 'behalten', 'behält', 'behielt', 'hat behalten'),
     new Verb('получать (синоним)', 'erhalten', 'erhält', 'erhielt', 'hat erhalten'),
+    new Verb('подтверждать', 'bestätigen', 'bestätigt', 'bestätige', 'hat bestätigt'),
+    new Verb('обладать', 'besitzen', 'besitzt', 'besaß', 'hat besessen'),
+    new Verb('добиваться', 'erreichen', 'erreicht', 'erreichte', 'hat erreicht'),
+    new Verb('завершать, заканчивать (синоним)', 'abschließen', 'schließt ab', 'schloss ab', 'hat abgeschlossen'),
+    new Verb('запирать', 'absperren', 'sperrt ab', 'sperrte ab', 'hat abgesperrt'),
+    new Verb('трогать, хватать', 'anfassen', 'fasst an', 'fasste an', 'hat angefasst'),
+    new Verb('гореть', 'brennen', 'brennt', 'brannte', 'hat gebrannt'),
+    new Verb('шить', 'nähen', 'näht', 'nähte', 'hat genäht'),
 
 ];

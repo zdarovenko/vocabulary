@@ -645,4 +645,12 @@ export const NOUNS = [
     new Noun('кнопка', 'die', 'Taste', 'Tasten'),
     new Noun('отдел, раздел', 'die', 'Abteilung', 'Abteilungen'),
     new Noun('молодежь', 'die', 'Jugend', null, true),
+    new Noun('участник', 'das', 'Mitglied', 'Mitglieder'),
+    new Noun('удостоверение личности', 'der', 'Ausweis', 'Ausweise'),
+    new Noun('преступник', 'der', 'Täter', 'Täter'),
+    new Noun('свидетель', 'der', 'Zeuge', 'Zeugen'),
+    new Noun('лампочка (накаливания)', 'die', 'Glühbirne', 'Glühbirnen'),
+    new Noun('электричество', 'der', 'Strom', null, true),
+    new Noun('стихотворение', 'das', 'Gedicht', 'Gedichte'),
+    new Noun('сказка', 'das', 'Märchen', 'Märchen'),
 ];
