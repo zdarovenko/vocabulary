@@ -621,7 +621,7 @@ export const NOUNS = [
     new Noun('высота', 'die', 'Höhe', 'Höhen'),
     new Noun('мусорное ведро', 'der', 'Mülleimer', 'Mülleimer'),
     new Noun('печь', 'der', 'Ofen', 'Öfen'),
-    new Noun('пригород', 'der', 'Vorort', 'Vororten'),
+    new Noun('пригород', 'der', 'Vorort', 'Vororte'),
     new Noun('площадь (величина)', 'die', 'Fläche', 'Flächen'),
     new Noun('нехватка', 'der', 'Mangel', null, true),
     new Noun('население', 'die', 'Bevölkerung', null, true),
