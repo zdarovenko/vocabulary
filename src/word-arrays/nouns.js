@@ -652,4 +652,7 @@ export const NOUNS = [
     new Noun('электричество', 'der', 'Strom', null, true),
     new Noun('стихотворение', 'das', 'Gedicht', 'Gedichte'),
     new Noun('сказка', 'das', 'Märchen', 'Märchen'),
+    new Noun('будущее', 'die', 'Zukunft', 'Zukünfte'),
+    new Noun('настоящее', 'die', 'Gegenwart', null, true),
+    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
 ];
