@@ -364,5 +364,6 @@ export const VERBS = [
     new Verb('удивлять', 'wundern', 'wundert', 'wunderte', 'hat gewundert'),
     new Verb('зависеть', 'abhängen', 'hängt ab', 'hing ab', 'hat abgehangen'),
     new Verb('теряться, заблудиться', 'sich verlaufen', 'verläuft', 'verlief', 'hat verlaufen'),
+    new Verb('отсутствовать, недоставать', 'fehlen', 'fehlt', 'fehlte', 'hat gefehlt'),
 
 ];
