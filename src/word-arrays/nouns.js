@@ -655,7 +655,6 @@ export const NOUNS = [
     new Noun('будущее', 'die', 'Zukunft', 'Zukünfte'),
     new Noun('настоящее', 'die', 'Gegenwart', null, true),
     new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
-
     new Noun('жесткий диск', 'die', 'Festplatte', 'Festplatten'),
     new Noun('прогресс', 'der', 'Vorschritt', 'Vorschritte'),
     new Noun('коммуникация', 'die', 'Kommunikation', null, true),
@@ -672,4 +671,5 @@ export const NOUNS = [
     new Noun('питание', 'die', 'Ernährung', null, true),
     new Noun('обещание', 'das', 'Versprechen', 'Versprechen'),
     new Noun('закон', 'das', 'Gesetz', 'Gesetze'),
+    new Noun('поведение', 'das', 'Verhalten', 'Verhalten'),
 ];
