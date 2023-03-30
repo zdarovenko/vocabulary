@@ -349,5 +349,7 @@ export const VERBS = [
     new Verb('трогать, хватать', 'anfassen', 'fasst an', 'fasste an', 'hat angefasst'),
     new Verb('гореть', 'brennen', 'brennt', 'brannte', 'hat gebrannt'),
     new Verb('шить', 'nähen', 'näht', 'nähte', 'hat genäht'),
+    new Verb('утверждать', 'behaupten', 'behauptet', 'behauptete', 'hat behauptet'),
+    new Verb('предполагать', 'vermuten', 'vermutet', 'vermutete', 'hat vermutet'),
 
 ];

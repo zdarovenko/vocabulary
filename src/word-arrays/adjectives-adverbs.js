@@ -239,5 +239,8 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('позавчера', 'vorgestern'),
     new AdjectiveAdverb('пугливый', 'ängstlich'),
     new AdjectiveAdverb('честный, откровенный', 'ehrlich'),
+    new AdjectiveAdverb('предположительно', 'vermutlich'),
+    new AdjectiveAdverb('удаленно', 'fern'),
+    new AdjectiveAdverb('центральный', 'zentral'),
 
 ];
