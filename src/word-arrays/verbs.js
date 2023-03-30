@@ -361,5 +361,7 @@ export const VERBS = [
     new Verb('указывать, показывать', 'hinweisen', 'weist hin', 'wies hin', 'hat hingewiesen'),
     new Verb('присваивать, овладевать', 'sich aneignen', 'eignet an', 'eignete an', 'hat angeeignet'),
     new Verb('волноваться, переживать', 'sich aufregen', 'regt auf', 'regte auf', 'hat aufgeregt'),
+    new Verb('удивлять', 'wundern', 'wundert', 'wunderte', 'hat gewundert'),
+    new Verb('зависеть', 'abhängen', 'hängt ab', 'hing ab', 'hat abgehangen'),
 
 ];
