@@ -17,7 +17,7 @@ export const VERBS = [
     new Verb('ходить', 'gehen', 'geht', 'ging', 'ist gegangen'),
     new Verb('наслаждаться', 'genießen', 'genießt', 'genoss', 'hat genossen'),
     new Verb('выигрывать', 'gewinnen', 'gewinnt', 'gewann', 'hat gewonnen'),
-    new Verb('держать', 'halten', 'hält', 'hielt', 'hat gehalten'),
+    new Verb('держать, останавливаться', 'halten', 'hält', 'hielt', 'hat gehalten'),
     new Verb('висеть', 'hängen', 'hängt', 'hing', 'hat gehangen'),
     new Verb('называться', 'heißen', 'heißt', 'hieß', 'hat geheißen'),
     new Verb('помогать', 'helfen', 'hilft', 'half', 'hat geholfen'),
