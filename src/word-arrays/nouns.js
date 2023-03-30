@@ -671,10 +671,5 @@ export const NOUNS = [
     new Noun('диплом', 'das', 'Diplom', 'Diplome'),
     new Noun('питание', 'die', 'Ernährung', null, true),
     new Noun('обещание', 'das', 'Versprechen', 'Versprechen'),
-    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
-    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
-    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
-    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
-    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
-    new Noun('прошедшее', 'die', 'Vergangenheit', 'Vergangenheiten'),
+    new Noun('закон', 'das', 'Gesetz', 'Gesetze'),
 ];
