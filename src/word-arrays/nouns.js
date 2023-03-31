@@ -659,7 +659,7 @@ export const NOUNS = [
     new Noun('прогресс', 'der', 'Vorschritt', 'Vorschritte'),
     new Noun('коммуникация', 'die', 'Kommunikation', null, true),
     new Noun('дисковод', 'das', 'Laufwerk', 'Laufwerke'),
-    new Noun('уведомление', 'die', 'Mitteilung', 'Mitteilung'),
+    new Noun('уведомление', 'die', 'Mitteilung', 'Mitteilungen'),
     new Noun('система', 'das', 'System', 'Systeme'),
     new Noun('клавиатура', 'die', 'Tastatur', 'Tastaturen'),
     new Noun('техника', 'die', 'Technik', 'Techniken'),
