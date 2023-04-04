@@ -365,5 +365,10 @@ export const VERBS = [
     new Verb('зависеть', 'abhängen', 'hängt ab', 'hing ab', 'hat abgehangen'),
     new Verb('теряться, заблудиться', 'sich verlaufen', 'verläuft', 'verlief', 'hat verlaufen'),
     new Verb('отсутствовать, недоставать', 'fehlen', 'fehlt', 'fehlte', 'hat gefehlt'),
+    new Verb('отказаться, отклонять', 'ablehnen', 'lehnt ab', 'lehnte ab', 'hat abgelehnt'),
+    new Verb('исполнять', 'erfüllen', 'erfüllt', 'erfüllte', 'hat erfüllt'),
+    new Verb('случаться, происходить', 'geschehen', 'geschieht', 'geschah', 'ist geschehen'),
+    new Verb('проводить (время)', 'verbringen', 'verbringt', 'verbrachte', 'hat verbracht'),
+    new Verb('обижать, оскорблять', 'beleidigen', 'beleidigt', 'beleidigte', 'hat beleidigt'),
 
 ];
