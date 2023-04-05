@@ -71,7 +71,7 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('медленно', 'langsam'),
     new AdjectiveAdverb('громко', 'laut'),
     new AdjectiveAdverb('быстро', 'schnell'),
-    new AdjectiveAdverb('тихо', 'leis'),
+    new AdjectiveAdverb('тихо', 'leise'),
     new AdjectiveAdverb('совсем, вполне', 'ganz'),
     new AdjectiveAdverb('добрый, милый', 'nett'),
     new AdjectiveAdverb('скучно', 'langweilig'),
