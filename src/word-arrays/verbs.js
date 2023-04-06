@@ -370,5 +370,10 @@ export const VERBS = [
     new Verb('случаться, происходить', 'geschehen', 'geschieht', 'geschah', 'ist geschehen'),
     new Verb('проводить (время)', 'verbringen', 'verbringt', 'verbrachte', 'hat verbracht'),
     new Verb('обижать, оскорблять', 'beleidigen', 'beleidigt', 'beleidigte', 'hat beleidigt'),
+    new Verb('нырять', 'tauchen', 'taucht', 'tauchte', 'ist getaucht'),
+    new Verb('потеть', 'schwitzen', 'schwitzt', 'schwitzte', 'hat geschwitzt'),
+    new Verb('тратить (деньги)', 'ausgeben', 'gibt aus', 'gab aus', 'hat ausgegeben'),
+    new Verb('просвящать, разъяснять', 'aufklären', 'klärt auf', 'klärte auf', 'hat aufgeklärt'),
+    new Verb('принимать во внимание, иметь в виду', 'berücksichtigen', 'berücksichtigt', 'berücksichtigte', 'hat berücksichtigt'),
 
 ];

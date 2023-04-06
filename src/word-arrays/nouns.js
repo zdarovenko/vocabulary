@@ -672,4 +672,6 @@ export const NOUNS = [
     new Noun('обещание', 'das', 'Versprechen', 'Versprechen'),
     new Noun('закон', 'das', 'Gesetz', 'Gesetze'),
     new Noun('поведение', 'das', 'Verhalten', 'Verhalten'),
+    new Noun('консультация, совещание', 'die', 'Beratung', 'Beratungen'),
+    new Noun('обязанность', 'die', 'Pflicht', 'Pflichten'),
 ];

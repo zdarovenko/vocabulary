@@ -242,5 +242,10 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('предположительно', 'vermutlich'),
     new AdjectiveAdverb('удаленно', 'fern'),
     new AdjectiveAdverb('центральный', 'zentral'),
+    new AdjectiveAdverb('примерно (синоним)', 'ungefähr'),
+    new AdjectiveAdverb('в течение дня', 'tagsüber'),
+    new AdjectiveAdverb('моментально', 'momentan'),
+    new AdjectiveAdverb('в любом случае, соответственно', 'jeweils'),
+    new AdjectiveAdverb('всерьез', 'ernsthaft'),
 
 ];
