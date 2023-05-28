@@ -247,5 +247,10 @@ export const ADJECTIVES_ADVERBS = [
     new AdjectiveAdverb('моментально', 'momentan'),
     new AdjectiveAdverb('в любом случае, соответственно', 'jeweils'),
     new AdjectiveAdverb('всерьез', 'ernsthaft'),
+    new AdjectiveAdverb('вкусный (синоним)', 'fein'),
+    new AdjectiveAdverb('в среднем', 'durchschnittlich'),
+    new AdjectiveAdverb('личный', 'persönlich'),
+    new AdjectiveAdverb('мокрый, влажный', 'nass'),
+    new AdjectiveAdverb('гневный, злобный', 'zornig'),
 
 ];

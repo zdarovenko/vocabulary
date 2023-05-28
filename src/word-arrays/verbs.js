@@ -357,7 +357,7 @@ export const VERBS = [
     new Verb('отказываться', 'sich weigern', 'weigert', 'weigerte', 'hat geweigert'),
     new Verb('стыдиться', 'sich schämen', 'schämt', 'schämte', 'hat geschämt'),
     new Verb('заниматься, иметь дело с', 'sich befassen', 'befasst', 'befasste', 'hat befasst'),
-    new Verb('прилагать усилия', 'sich bemühen', 'bemüht', 'bemühte', 'hat bemüht'),
+    new Verb('стараться, прилагать усилия', 'sich bemühen', 'bemüht', 'bemühte', 'hat bemüht'),
     new Verb('указывать, показывать', 'hinweisen', 'weist hin', 'wies hin', 'hat hingewiesen'),
     new Verb('присваивать, овладевать', 'sich aneignen', 'eignet an', 'eignete an', 'hat angeeignet'),
     new Verb('волноваться, переживать', 'sich aufregen', 'regt auf', 'regte auf', 'hat aufgeregt'),
@@ -375,5 +375,9 @@ export const VERBS = [
     new Verb('тратить (деньги)', 'ausgeben', 'gibt aus', 'gab aus', 'hat ausgegeben'),
     new Verb('просвящать, разъяснять', 'aufklären', 'klärt auf', 'klärte auf', 'hat aufgeklärt'),
     new Verb('принимать во внимание, иметь в виду', 'berücksichtigen', 'berücksichtigt', 'berücksichtigte', 'hat berücksichtigt'),
+    new Verb('удерживать', 'festhalten', 'hält fest', 'hielt fest', 'hat festgehalten'),
+    new Verb('дышать', 'atmen', 'atmet', 'atmete', 'hat geatmet'),
+    new Verb('вредить', 'schaden', 'schadet', 'schadete', 'hat geschadet'),
+    new Verb('проверять', 'prüfen', 'prüft', 'prüfte', 'hat geprüft'),
 
 ];

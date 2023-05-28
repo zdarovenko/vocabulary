@@ -674,4 +674,12 @@ export const NOUNS = [
     new Noun('поведение', 'das', 'Verhalten', 'Verhalten'),
     new Noun('консультация, совещание', 'die', 'Beratung', 'Beratungen'),
     new Noun('обязанность', 'die', 'Pflicht', 'Pflichten'),
+    new Noun('инструкция, указание', 'die', 'Anleitung', 'Anleitungen'),
+    new Noun('способность', 'die', 'Fähigkeit', 'Fähigkeiten'),
+    new Noun('газон', 'der', 'Rasen', null, true),
+    new Noun('пристрастие, зависимость', 'die', 'Sucht', 'Süchte'),
+    new Noun('содержимое, содержание', 'der', 'Inhalt', 'Inhalte'),
+    new Noun('мысль', 'der', 'Gedanke', 'Gedanken'),
+    new Noun('купюра', 'der', 'Schein', 'Scheine'),
+    new Noun('маршрут', 'die', 'Strecke', 'Strecken'),
 ];
