@@ -379,5 +379,6 @@ export const VERBS = [
     new Verb('дышать', 'atmen', 'atmet', 'atmete', 'hat geatmet'),
     new Verb('вредить', 'schaden', 'schadet', 'schadete', 'hat geschadet'),
     new Verb('проверять', 'prüfen', 'prüft', 'prüfte', 'hat geprüft'),
+    new Verb('предъявлять требования', 'herausfordern', 'fordert heraus', 'forderte heraus', 'hat herausgefordert'),
 
 ];

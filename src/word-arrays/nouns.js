@@ -682,4 +682,5 @@ export const NOUNS = [
     new Noun('мысль', 'der', 'Gedanke', 'Gedanken'),
     new Noun('купюра', 'der', 'Schein', 'Scheine'),
     new Noun('маршрут', 'die', 'Strecke', 'Strecken'),
+    new Noun('тротуар', 'der', 'Bürgersteig', 'Bürgersteige'),
 ];
